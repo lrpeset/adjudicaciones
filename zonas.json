@@ -1,0 +1,4162 @@
+{
+  "municipios": [
+    {
+      "codigo_municipio": "03002",
+      "municipio": "AGOST",
+      "subarea": "0342",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03003",
+      "municipio": "AGRES",
+      "subarea": "0321",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03004",
+      "municipio": "AIGUES",
+      "subarea": "0343",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03005",
+      "municipio": "ALBATERA",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03006",
+      "municipio": "ALCALALI",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03009",
+      "municipio": "ALCOI",
+      "subarea": "0321",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03010",
+      "municipio": "ALFAFARA",
+      "subarea": "0321",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03011",
+      "municipio": "L'ALFÀS DEL PI",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03012",
+      "municipio": "ALGORFA",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03013",
+      "municipio": "ALGUEÑA",
+      "subarea": "0333",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03014",
+      "municipio": "ALACANT",
+      "subarea": "0341",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03015",
+      "municipio": "ALMORADI",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03017",
+      "municipio": "L'ALQUERIA D'ASNAR",
+      "subarea": "0323",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03018",
+      "municipio": "ALTEA",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03019",
+      "municipio": "ASPE",
+      "subarea": "0333",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03021",
+      "municipio": "BANYERES DE MARIOLA",
+      "subarea": "0321",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03023",
+      "municipio": "BENEIXAMA",
+      "subarea": "0332",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03024",
+      "municipio": "BENEJUZAR",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03025",
+      "municipio": "BENFERRI",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03026",
+      "municipio": "BENIARBEIG",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03027",
+      "municipio": "BENIARDA",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03028",
+      "municipio": "BENIARRES",
+      "subarea": "0323",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03029",
+      "municipio": "BENIGEMBLA",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03030",
+      "municipio": "BENIDOLEIG",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03031",
+      "municipio": "BENIDORM",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03033",
+      "municipio": "BENIFATO",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03034",
+      "municipio": "BENIJOFAR",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03035",
+      "municipio": "BENILLOBA",
+      "subarea": "0324",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03037",
+      "municipio": "BENIMANTELL",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03038",
+      "municipio": "BENIMARFULL",
+      "subarea": "0323",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03040",
+      "municipio": "BENIMELI",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03041",
+      "municipio": "BENISSA",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03042",
+      "municipio": "EL POBLE NOU DE BENITATXELL",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03043",
+      "municipio": "BIAR",
+      "subarea": "0332",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03044",
+      "municipio": "BIGASTRO",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03045",
+      "municipio": "BOLULLA",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03046",
+      "municipio": "BUSOT",
+      "subarea": "0343",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03047",
+      "municipio": "CALP",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03048",
+      "municipio": "CALLOSA D'EN SARRIA",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03049",
+      "municipio": "CALLOSA DE SEGURA",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03050",
+      "municipio": "EL CAMPELLO",
+      "subarea": "0342",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03051",
+      "municipio": "EL CAMP DE MIRRA",
+      "subarea": "0332",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03052",
+      "municipio": "CAÑADA",
+      "subarea": "0332",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03053",
+      "municipio": "CASTALLA",
+      "subarea": "0322",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03054",
+      "municipio": "CASTELL DE CASTELLS",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03055",
+      "municipio": "CATRAL",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03056",
+      "municipio": "COCENTAINA",
+      "subarea": "0321",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03057",
+      "municipio": "CONFRIDES",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03058",
+      "municipio": "COX",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03059",
+      "municipio": "CREVILLENT",
+      "subarea": "0351",
+      "subarea_nombre": "",
+      "area": "035",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03061",
+      "municipio": "DAYA NUEVA",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03063",
+      "municipio": "DENIA",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03064",
+      "municipio": "DOLORES",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03065",
+      "municipio": "ELX",
+      "subarea": "0351",
+      "subarea_nombre": "",
+      "area": "035",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03066",
+      "municipio": "ELDA",
+      "subarea": "0331",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03069",
+      "municipio": "FINESTRAT",
+      "subarea": "0313",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03070",
+      "municipio": "FORMENTERA DEL SEGURA",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03071",
+      "municipio": "GATA DE GORGOS",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03072",
+      "municipio": "GAIANES",
+      "subarea": "0323",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03074",
+      "municipio": "GRANJA DE ROCAMORA",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03075",
+      "municipio": "EL CASTELL DE GUADALEST",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03076",
+      "municipio": "GUARDAMAR DEL SEGURA",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03077",
+      "municipio": "EL FONDÓ DE LES NEUS",
+      "subarea": "0333",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03078",
+      "municipio": "HONDON DE LOS FRAILES",
+      "subarea": "0333",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03079",
+      "municipio": "IBI",
+      "subarea": "0322",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03080",
+      "municipio": "JACARILLA",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03081",
+      "municipio": "XALO",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03082",
+      "municipio": "XÀBIA",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03083",
+      "municipio": "XIXONA",
+      "subarea": "0343",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03084",
+      "municipio": "L'ORXA",
+      "subarea": "0323",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03085",
+      "municipio": "LLIBER",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03088",
+      "municipio": "MONFORTE DEL CID",
+      "subarea": "0333",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03089",
+      "municipio": "MONÒVER",
+      "subarea": "0331",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03090",
+      "municipio": "MUTXAMEL",
+      "subarea": "0342",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03091",
+      "municipio": "MURLA",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03092",
+      "municipio": "MURO DE ALCOY",
+      "subarea": "0323",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03093",
+      "municipio": "NOVELDA",
+      "subarea": "0333",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03094",
+      "municipio": "LA NUCIA",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03095",
+      "municipio": "ONDARA",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03096",
+      "municipio": "ONIL",
+      "subarea": "0322",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03097",
+      "municipio": "ORBA",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03098",
+      "municipio": "ORXETA",
+      "subarea": "0313",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03099",
+      "municipio": "ORIHUELA",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03100",
+      "municipio": "PARCENT",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03101",
+      "municipio": "PEDREGUER",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03102",
+      "municipio": "PEGO",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03104",
+      "municipio": "PETRER",
+      "subarea": "0331",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03105",
+      "municipio": "EL PINÓS",
+      "subarea": "0331",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03106",
+      "municipio": "PLANES",
+      "subarea": "0323",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03107",
+      "municipio": "POLOP",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03109",
+      "municipio": "RAFAL",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03110",
+      "municipio": "EL RÀFOL D'ALMÚNIA",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03111",
+      "municipio": "REDOVAN",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03112",
+      "municipio": "RELLEU",
+      "subarea": "0313",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03113",
+      "municipio": "ROJALES",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03114",
+      "municipio": "LA ROMANA",
+      "subarea": "0333",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03115",
+      "municipio": "SAGRA",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03116",
+      "municipio": "SALINAS",
+      "subarea": "0331",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03117",
+      "municipio": "SANET Y NEGRALS",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03118",
+      "municipio": "SAN FULGENCIO",
+      "subarea": "0363",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03119",
+      "municipio": "SANT JOAN D'ALACANT",
+      "subarea": "0342",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03120",
+      "municipio": "SAN MIGUEL DE SALINAS",
+      "subarea": "0362",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03121",
+      "municipio": "SANTA POLA",
+      "subarea": "0351",
+      "subarea_nombre": "",
+      "area": "035",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03122",
+      "municipio": "SANT VICENT DEL RASPEIG",
+      "subarea": "0342",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03123",
+      "municipio": "SAX",
+      "subarea": "0331",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03124",
+      "municipio": "SELLA",
+      "subarea": "0313",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03125",
+      "municipio": "SENIJA",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03127",
+      "municipio": "TARBENA",
+      "subarea": "0311",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03128",
+      "municipio": "TEULADA",
+      "subarea": "0314",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03129",
+      "municipio": "TIBI",
+      "subarea": "0322",
+      "subarea_nombre": "",
+      "area": "032",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03131",
+      "municipio": "TORMOS",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03132",
+      "municipio": "LA TORRE DE LES MAÇANES",
+      "subarea": "0343",
+      "subarea_nombre": "",
+      "area": "034",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03133",
+      "municipio": "TORREVIEJA",
+      "subarea": "0362",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03135",
+      "municipio": "LA VALL D'EBO",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03136",
+      "municipio": "VALL DE GALLINERA",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03137",
+      "municipio": "LA VALL DE LAGUAR",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03138",
+      "municipio": "EL VERGER",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03139",
+      "municipio": "LA VILA JOIOSA",
+      "subarea": "0313",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03140",
+      "municipio": "VILLENA",
+      "subarea": "0332",
+      "subarea_nombre": "",
+      "area": "033",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03901",
+      "municipio": "ELS POBLETS",
+      "subarea": "0312",
+      "subarea_nombre": "",
+      "area": "031",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03902",
+      "municipio": "PILAR DE LA HORADADA",
+      "subarea": "0362",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03903",
+      "municipio": "LOS MONTESINOS",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "03904",
+      "municipio": "SAN ISIDRO",
+      "subarea": "0361",
+      "subarea_nombre": "",
+      "area": "036",
+      "area_nombre": "",
+      "provincia": "Alicante"
+    },
+    {
+      "codigo_municipio": "12001",
+      "municipio": "ATZENETA DEL MAESTRAT",
+      "subarea": "1221",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12003",
+      "municipio": "ALBOCASSER",
+      "subarea": "1213",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12004",
+      "municipio": "ALCALA DE XIVERT",
+      "subarea": "1211",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12005",
+      "municipio": "L'ALCORA",
+      "subarea": "1221",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12007",
+      "municipio": "ALFONDEGUILLA",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12009",
+      "municipio": "ALMASSORA",
+      "subarea": "1232",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12010",
+      "municipio": "ALMEDIJAR",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12011",
+      "municipio": "ALMENARA",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12012",
+      "municipio": "ALTURA",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12016",
+      "municipio": "ARTANA",
+      "subarea": "1244",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12017",
+      "municipio": "AYODAR",
+      "subarea": "1222",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12018",
+      "municipio": "AZUEBAR",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12020",
+      "municipio": "BARRACAS",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12021",
+      "municipio": "BETXI",
+      "subarea": "1244",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12022",
+      "municipio": "BEJIS",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12026",
+      "municipio": "BENASAL",
+      "subarea": "1213",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12027",
+      "municipio": "BENICARLO",
+      "subarea": "1211",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12028",
+      "municipio": "BENICÀSSIM",
+      "subarea": "1232",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12029",
+      "municipio": "BENLLOCH",
+      "subarea": "1233",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12031",
+      "municipio": "BORRIOL",
+      "subarea": "1232",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12032",
+      "municipio": "BORRIANA",
+      "subarea": "1241",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12033",
+      "municipio": "CABANES",
+      "subarea": "1233",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12034",
+      "municipio": "CALIG",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12036",
+      "municipio": "CANET LO ROIG",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12038",
+      "municipio": "CASTELLFORT",
+      "subarea": "1215",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12039",
+      "municipio": "CASTELLNOVO",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12040",
+      "municipio": "CASTELLO DE LA PLANA",
+      "subarea": "1231",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12042",
+      "municipio": "CATI",
+      "subarea": "1213",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12043",
+      "municipio": "CAUDIEL",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12044",
+      "municipio": "CERVERA DEL MAESTRE",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12045",
+      "municipio": "CINCTORRES",
+      "subarea": "1215",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12048",
+      "municipio": "CORTES DE ARENOSO",
+      "subarea": "1221",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12049",
+      "municipio": "COSTUR",
+      "subarea": "1221",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12050",
+      "municipio": "LES COVES DE VINROMÀ",
+      "subarea": "1235",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12051",
+      "municipio": "CULLA",
+      "subarea": "1213",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12052",
+      "municipio": "XERT",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12053",
+      "municipio": "XILXES",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12056",
+      "municipio": "CHOVAR",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12057",
+      "municipio": "ESLIDA",
+      "subarea": "1244",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12059",
+      "municipio": "FANZARA",
+      "subarea": "1222",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12060",
+      "municipio": "FIGUEROLES",
+      "subarea": "1222",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12061",
+      "municipio": "FORCALL",
+      "subarea": "1214",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12067",
+      "municipio": "GELDO",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12070",
+      "municipio": "LA JANA",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12071",
+      "municipio": "JERICA",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12072",
+      "municipio": "LUCENA DEL CID",
+      "subarea": "1222",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12073",
+      "municipio": "LUDIENTE",
+      "subarea": "1222",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12074",
+      "municipio": "LA LLOSA",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12075",
+      "municipio": "LA MATA",
+      "subarea": "1214",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12077",
+      "municipio": "MONCOFA",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12078",
+      "municipio": "MONTAN",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12079",
+      "municipio": "MONTANEJOS",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12080",
+      "municipio": "MORELLA",
+      "subarea": "1214",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12081",
+      "municipio": "NAVAJAS",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12082",
+      "municipio": "NULES",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12083",
+      "municipio": "OLOCAU DEL REY",
+      "subarea": "1214",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12084",
+      "municipio": "ONDA",
+      "subarea": "1243",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12085",
+      "municipio": "ORPESA",
+      "subarea": "1234",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12089",
+      "municipio": "PENÍSCOLA",
+      "subarea": "1211",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12091",
+      "municipio": "PORTELL DE MORELLA",
+      "subarea": "1215",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12093",
+      "municipio": "LA POBLA DE BENIFASSÀ",
+      "subarea": "1216",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12094",
+      "municipio": "LA POBLA TORNESA",
+      "subarea": "1233",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12095",
+      "municipio": "RIBESALBES",
+      "subarea": "1243",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12096",
+      "municipio": "ROSSELL",
+      "subarea": "1216",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12098",
+      "municipio": "LA SALZADELLA",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12099",
+      "municipio": "SANT JORDI",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12100",
+      "municipio": "SANT MATEU",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12101",
+      "municipio": "SAN RAFAEL DEL RIO",
+      "subarea": "1216",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12102",
+      "municipio": "SANTA MAGDALENA DE PULPIS",
+      "subarea": "1211",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12104",
+      "municipio": "SEGORBE",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12105",
+      "municipio": "SIERRA ENGARCERAN",
+      "subarea": "1233",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12106",
+      "municipio": "SONEJA",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12107",
+      "municipio": "SOT DE FERRER",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12108",
+      "municipio": "SUERA",
+      "subarea": "1243",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12109",
+      "municipio": "TALES",
+      "subarea": "1243",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12110",
+      "municipio": "TERESA",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12111",
+      "municipio": "TIRIG",
+      "subarea": "1213",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12114",
+      "municipio": "TORAS",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12115",
+      "municipio": "EL TORO",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12117",
+      "municipio": "TORREBLANCA",
+      "subarea": "1234",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12119",
+      "municipio": "LA TORRE D'EN BESORA",
+      "subarea": "1213",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12120",
+      "municipio": "LA TORRE D'EN DOMÉNEC",
+      "subarea": "1235",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12121",
+      "municipio": "TRAIGUERA",
+      "subarea": "1212",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12122",
+      "municipio": "LES USERES",
+      "subarea": "1221",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12124",
+      "municipio": "VALL D'ALBA",
+      "subarea": "1233",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12125",
+      "municipio": "VALL DE ALMONACID",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12126",
+      "municipio": "LA VALL D'UIXÓ",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12128",
+      "municipio": "VILAFAMES",
+      "subarea": "1233",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12129",
+      "municipio": "VILAFRANCA",
+      "subarea": "1215",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12130",
+      "municipio": "VILLAHERMOSA DEL RIO",
+      "subarea": "1222",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12132",
+      "municipio": "VILANOVA D'ALCOLEA",
+      "subarea": "1235",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12134",
+      "municipio": "VILAR DE CANES",
+      "subarea": "1213",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12135",
+      "municipio": "VILA-REAL",
+      "subarea": "1241",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12136",
+      "municipio": "LA VILAVELLA",
+      "subarea": "1242",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12138",
+      "municipio": "VINAROS",
+      "subarea": "1211",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12139",
+      "municipio": "VISTABELLA DEL MAESTRAZGO",
+      "subarea": "1221",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12140",
+      "municipio": "VIVER",
+      "subarea": "1224",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12141",
+      "municipio": "ZORITA DEL MAESTRAZGO",
+      "subarea": "1214",
+      "subarea_nombre": "",
+      "area": "121",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12142",
+      "municipio": "ZUCAINA",
+      "subarea": "1222",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12800",
+      "municipio": "JERICA",
+      "subarea": "1223",
+      "subarea_nombre": "",
+      "area": "122",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12901",
+      "municipio": "ALQUERÍAS DEL NIÑO PERDIDO",
+      "subarea": "1241",
+      "subarea_nombre": "",
+      "area": "124",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "12902",
+      "municipio": "SANT JOAN DE MORO",
+      "subarea": "1233",
+      "subarea_nombre": "",
+      "area": "123",
+      "area_nombre": "",
+      "provincia": "Castellón"
+    },
+    {
+      "codigo_municipio": "46001",
+      "municipio": "ADEMUZ",
+      "subarea": "4624",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46003",
+      "municipio": "ATZENETA D' ALBAIDA",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46004",
+      "municipio": "AGULLENT",
+      "subarea": "4663",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46006",
+      "municipio": "ALBAIDA",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46007",
+      "municipio": "ALBAL",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46008",
+      "municipio": "ALBALAT DE LA RIBERA",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46010",
+      "municipio": "ALBALAT DELS TARONGERS",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46011",
+      "municipio": "ALBERIC",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46012",
+      "municipio": "ALBORACHE",
+      "subarea": "4633",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46015",
+      "municipio": "ALCASSER",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46016",
+      "municipio": "ALCANTERA DE XUQUER",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46017",
+      "municipio": "ALZIRA",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46018",
+      "municipio": "ALCUBLAS",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46019",
+      "municipio": "L'ALCÚDIA",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46020",
+      "municipio": "L'ALCÚDIA DE CRESPINS",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46021",
+      "municipio": "ALDAIA",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46022",
+      "municipio": "ALFAFAR",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46023",
+      "municipio": "ALFAUIR",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46024",
+      "municipio": "ALFARA DE LA BARONIA",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46025",
+      "municipio": "ALFARA DEL PATRIARCA",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46026",
+      "municipio": "ALFARP",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46027",
+      "municipio": "ALFARRASI",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46028",
+      "municipio": "ALGAR DE PALANCIA",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46029",
+      "municipio": "ALGEMESI",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46030",
+      "municipio": "ALGIMIA DE ALFARA",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46031",
+      "municipio": "ALGINET",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46034",
+      "municipio": "ALMOINES",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46035",
+      "municipio": "ALMUSSAFES",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46036",
+      "municipio": "ALPUENTE",
+      "subarea": "4623",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46037",
+      "municipio": "L'ALQUERIA DE LA COMTESSA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46039",
+      "municipio": "ANNA",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46040",
+      "municipio": "ANTELLA",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46041",
+      "municipio": "ARAS DE LOS OLMOS",
+      "subarea": "4623",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46042",
+      "municipio": "AIELO DE MALFERIT",
+      "subarea": "4663",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46043",
+      "municipio": "AIELO DE RUGAT",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46044",
+      "municipio": "AYORA",
+      "subarea": "4635",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46045",
+      "municipio": "BARXETA",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46046",
+      "municipio": "BARX",
+      "subarea": "4664",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46047",
+      "municipio": "BELGIDA",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46048",
+      "municipio": "BELLREGUARD",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46049",
+      "municipio": "BELLUS",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46051",
+      "municipio": "BENAGUASIL",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46052",
+      "municipio": "BENAVITES",
+      "subarea": "4611",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46053",
+      "municipio": "BENEIXIDA",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46054",
+      "municipio": "BENETUSSER",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46055",
+      "municipio": "BENIARJO",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46056",
+      "municipio": "BENIATJAR",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46057",
+      "municipio": "BENICOLET",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46058",
+      "municipio": "BENIFAIRO DE LES VALLS",
+      "subarea": "4611",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46059",
+      "municipio": "BENIFAIRO DE LA VALLDIGNA",
+      "subarea": "4664",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46060",
+      "municipio": "BENIFAIO",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46062",
+      "municipio": "BENIGANIM",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46063",
+      "municipio": "BENIMODO",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46064",
+      "municipio": "BENIMUSLEM",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46065",
+      "municipio": "BENIPARRELL",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46067",
+      "municipio": "BENISANÓ",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46068",
+      "municipio": "BENISSODA",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46069",
+      "municipio": "BENISUERA",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46070",
+      "municipio": "BETERA",
+      "subarea": "4613",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46071",
+      "municipio": "BICORP",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46072",
+      "municipio": "BOCAIRENT",
+      "subarea": "4663",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46073",
+      "municipio": "BOLBAITE",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46074",
+      "municipio": "BONREPOS I MIRAMBELL",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46075",
+      "municipio": "BUFALI",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46076",
+      "municipio": "BUGARRA",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46077",
+      "municipio": "BUÑOL",
+      "subarea": "4633",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46078",
+      "municipio": "BURJASSOT",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46079",
+      "municipio": "CALLES",
+      "subarea": "4622",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46080",
+      "municipio": "CAMPORROBLES",
+      "subarea": "4632",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46081",
+      "municipio": "CANALS",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46082",
+      "municipio": "CANET D'EN BERENGUER",
+      "subarea": "4611",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46083",
+      "municipio": "CARCAIXENT",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46084",
+      "municipio": "CARCER",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46085",
+      "municipio": "CARLET",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46088",
+      "municipio": "CASAS BAJAS",
+      "subarea": "4624",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46089",
+      "municipio": "CASINOS",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46090",
+      "municipio": "CASTELLO DE RUGAT",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46093",
+      "municipio": "CATADAU",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46094",
+      "municipio": "CATARROJA",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46095",
+      "municipio": "CAUDETE DE LAS FUENTES",
+      "subarea": "4632",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46096",
+      "municipio": "CERDA",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46097",
+      "municipio": "COFRENTES",
+      "subarea": "4635",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46098",
+      "municipio": "CORBERA",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46099",
+      "municipio": "CORTES DE PALLAS",
+      "subarea": "4633",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46100",
+      "municipio": "COTES",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46101",
+      "municipio": "QUART DE LES VALLS",
+      "subarea": "4611",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46102",
+      "municipio": "QUART DE POBLET",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46103",
+      "municipio": "QUARTELL",
+      "subarea": "4611",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46104",
+      "municipio": "QUATRETONDA",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46105",
+      "municipio": "CULLERA",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46106",
+      "municipio": "CHELVA",
+      "subarea": "4622",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46107",
+      "municipio": "CHELLA",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46108",
+      "municipio": "CHERA",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46109",
+      "municipio": "CHESTE",
+      "subarea": "4634",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46110",
+      "municipio": "XIRIVELLA",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46111",
+      "municipio": "CHIVA",
+      "subarea": "4634",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46112",
+      "municipio": "CHULILLA",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46113",
+      "municipio": "DAIMUS",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46114",
+      "municipio": "DOMEÑO",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46115",
+      "municipio": "DOS AGUAS",
+      "subarea": "4633",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46116",
+      "municipio": "L'ELIANA",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46118",
+      "municipio": "ENGUERA",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46119",
+      "municipio": "L'ÈNOVA",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46120",
+      "municipio": "ESTIVELLA",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46122",
+      "municipio": "FAURA",
+      "subarea": "4611",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46123",
+      "municipio": "FAVARA",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46124",
+      "municipio": "FONTANARS DELS ALFORINS",
+      "subarea": "4663",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46125",
+      "municipio": "FORTALENY",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46127",
+      "municipio": "LA FONT D'EN CARRÒS",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46128",
+      "municipio": "LA FONT DE LA FIGUERA",
+      "subarea": "4665",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46129",
+      "municipio": "FUENTERROBLES",
+      "subarea": "4632",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46130",
+      "municipio": "GAVARDA",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46131",
+      "municipio": "GANDIA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46132",
+      "municipio": "GENOVÉS",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46133",
+      "municipio": "GESTALGAR",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46134",
+      "municipio": "GILET",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46135",
+      "municipio": "GODELLA",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46136",
+      "municipio": "GODELLETA",
+      "subarea": "4634",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46137",
+      "municipio": "LA GRANJA DE LA COSTERA",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46138",
+      "municipio": "GUADASSEQUIES",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46139",
+      "municipio": "GUADASSUAR",
+      "subarea": "4653",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46141",
+      "municipio": "HIGUERUELAS",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46142",
+      "municipio": "JALANCE",
+      "subarea": "4635",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46143",
+      "municipio": "XERACO",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46144",
+      "municipio": "JARAFUEL",
+      "subarea": "4635",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46145",
+      "municipio": "XATIVA",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46146",
+      "municipio": "XERESA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46147",
+      "municipio": "LLIRIA",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46148",
+      "municipio": "LORIGUILLA",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46149",
+      "municipio": "LOSA DEL OBISPO",
+      "subarea": "4622",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46150",
+      "municipio": "LLUTXENT",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46151",
+      "municipio": "LLOCNOU D'EN FENOLLET",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46153",
+      "municipio": "LLOCNOU DE SANT JERONI",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46154",
+      "municipio": "LLANERA DE RANES",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46155",
+      "municipio": "LLAURI",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46156",
+      "municipio": "LLOMBAI",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46157",
+      "municipio": "LA LLOSA DE RANES",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46158",
+      "municipio": "MACASTRE",
+      "subarea": "4633",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46159",
+      "municipio": "MANISES",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46160",
+      "municipio": "MANUEL",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46161",
+      "municipio": "MARINES",
+      "subarea": "4613",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46162",
+      "municipio": "MASSALAVES",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46163",
+      "municipio": "MASSALFASSAR",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46164",
+      "municipio": "MASSAMAGRELL",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46165",
+      "municipio": "MASSANASSA",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46166",
+      "municipio": "MELIANA",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46167",
+      "municipio": "MILLARES",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46168",
+      "municipio": "MIRAMAR",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46169",
+      "municipio": "MISLATA",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46170",
+      "municipio": "MOIXENT",
+      "subarea": "4665",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46171",
+      "municipio": "MONCADA",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46172",
+      "municipio": "MONTSERRAT",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46173",
+      "municipio": "MONTAVERNER",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46174",
+      "municipio": "MONTESA",
+      "subarea": "4665",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46175",
+      "municipio": "MONTITXELVO",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46176",
+      "municipio": "MONTROY",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46177",
+      "municipio": "MUSEROS",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46178",
+      "municipio": "NAQUERA",
+      "subarea": "4613",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46179",
+      "municipio": "NAVARRES",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46180",
+      "municipio": "NOVETLE",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46181",
+      "municipio": "OLIVA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46182",
+      "municipio": "OLOCAU",
+      "subarea": "4613",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46183",
+      "municipio": "L'OLLERIA",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46184",
+      "municipio": "ONTINYENT",
+      "subarea": "4663",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46185",
+      "municipio": "OTOS",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46186",
+      "municipio": "PAIPORTA",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46188",
+      "municipio": "PALMERA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46189",
+      "municipio": "EL PALOMAR",
+      "subarea": "4666",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46190",
+      "municipio": "PATERNA",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46191",
+      "municipio": "PEDRALBA",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46192",
+      "municipio": "PETRES",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46193",
+      "municipio": "PICANYA",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46194",
+      "municipio": "PICASSENT",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46195",
+      "municipio": "PILES",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46197",
+      "municipio": "POLINYA DE XUQUER",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46198",
+      "municipio": "POTRIES",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46199",
+      "municipio": "LA POBLA DE FARNALS",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46200",
+      "municipio": "LA POBLA DEL DUC",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46202",
+      "municipio": "LA POBLA DE VALLBONA",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46203",
+      "municipio": "LA POBLA LLARGA",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46205",
+      "municipio": "PUÇOL",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46206",
+      "municipio": "QUESA",
+      "subarea": "4636",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46207",
+      "municipio": "RAFELBUNYOL",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46208",
+      "municipio": "RAFELCOFER",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46209",
+      "municipio": "RAFELGUARAF",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46210",
+      "municipio": "RAFOL DE SALEM",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46211",
+      "municipio": "REAL DE GANDÍA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46212",
+      "municipio": "REAL",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46213",
+      "municipio": "REQUENA",
+      "subarea": "4631",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46214",
+      "municipio": "RIBA-ROJA DE TURIA",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46215",
+      "municipio": "RIOLA",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46216",
+      "municipio": "ROCAFORT",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46217",
+      "municipio": "ROTGLA I CORBERA",
+      "subarea": "4662",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46218",
+      "municipio": "ROTOVA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46219",
+      "municipio": "RUGAT",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46220",
+      "municipio": "SAGUNT",
+      "subarea": "4611",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46221",
+      "municipio": "SALEM",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46222",
+      "municipio": "SANT JOANET",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46223",
+      "municipio": "SEDAVI",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46225",
+      "municipio": "SELLENT",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46227",
+      "municipio": "SENYERA",
+      "subarea": "4651",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46228",
+      "municipio": "SERRA",
+      "subarea": "4613",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46229",
+      "municipio": "SIETE AGUAS",
+      "subarea": "4633",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46230",
+      "municipio": "SILLA",
+      "subarea": "4644",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46231",
+      "municipio": "SIMAT DE LA VALLDIGNA",
+      "subarea": "4664",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46232",
+      "municipio": "SINARCAS",
+      "subarea": "4632",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46233",
+      "municipio": "SOLLANA",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46234",
+      "municipio": "SOT DE CHERA",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46235",
+      "municipio": "SUECA",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46236",
+      "municipio": "SUMACARCER",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46237",
+      "municipio": "TAVERNES BLANQUES",
+      "subarea": "4645",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46238",
+      "municipio": "TAVERNES DE LA VALLDIGNA",
+      "subarea": "4664",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46239",
+      "municipio": "TERESA DE COFRENTES",
+      "subarea": "4635",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46240",
+      "municipio": "TERRATEIG",
+      "subarea": "4667",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46241",
+      "municipio": "TITAGUAS",
+      "subarea": "4623",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46242",
+      "municipio": "TORREBAJA",
+      "subarea": "4624",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46244",
+      "municipio": "TORRENT",
+      "subarea": "4642",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46245",
+      "municipio": "TORRES TORRES",
+      "subarea": "4614",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46246",
+      "municipio": "TOUS",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46247",
+      "municipio": "TUEJAR",
+      "subarea": "4622",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46248",
+      "municipio": "TURIS",
+      "subarea": "4655",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46249",
+      "municipio": "UTIEL",
+      "subarea": "4632",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46250",
+      "municipio": "VALENCIA",
+      "subarea": "4641",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46251",
+      "municipio": "VALLADA",
+      "subarea": "4665",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46254",
+      "municipio": "VENTA DEL MORO",
+      "subarea": "4632",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46255",
+      "municipio": "VILALLONGA",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46256",
+      "municipio": "VILAMARXANT",
+      "subarea": "4612",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46257",
+      "municipio": "VILLANUEVA DE CASTELLÓN",
+      "subarea": "4654",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46258",
+      "municipio": "VILLAR DEL ARZOBISPO",
+      "subarea": "4621",
+      "subarea_nombre": "",
+      "area": "462",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46259",
+      "municipio": "VILLARGORDO DEL CABRIEL",
+      "subarea": "4632",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46260",
+      "municipio": "VINALESA",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46261",
+      "municipio": "YATOVA",
+      "subarea": "4633",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46263",
+      "municipio": "ZARRA",
+      "subarea": "4635",
+      "subarea_nombre": "",
+      "area": "463",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46800",
+      "municipio": "ADOR",
+      "subarea": "4661",
+      "subarea_nombre": "",
+      "area": "466",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46902",
+      "municipio": "GATOVA",
+      "subarea": "4613",
+      "subarea_nombre": "",
+      "area": "461",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46903",
+      "municipio": "SAN ANTONIO DE BENAGEBER",
+      "subarea": "4643",
+      "subarea_nombre": "",
+      "area": "464",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    },
+    {
+      "codigo_municipio": "46904",
+      "municipio": "BENICULL DE XUQUER",
+      "subarea": "4652",
+      "subarea_nombre": "",
+      "area": "465",
+      "area_nombre": "",
+      "provincia": "Valencia"
+    }
+  ]
+}

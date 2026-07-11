@@ -1,0 +1,3254 @@
+[
+  {
+    "nombre": "Agost",
+    "provincia": "Alicante",
+    "latitud": 38.447402,
+    "longitud": -0.619438
+  },
+  {
+    "nombre": "Agres",
+    "provincia": "Alicante",
+    "latitud": 38.786432,
+    "longitud": -0.514455
+  },
+  {
+    "nombre": "Aigues",
+    "provincia": "Alicante",
+    "latitud": 38.507821,
+    "longitud": -0.36449
+  },
+  {
+    "nombre": "Alacant/Alicante",
+    "provincia": "Alicante",
+    "latitud": 38.346702,
+    "longitud": -0.479568
+  },
+  {
+    "nombre": "Albatera",
+    "provincia": "Alicante",
+    "latitud": 38.217389,
+    "longitud": -0.898628
+  },
+  {
+    "nombre": "Alcalali",
+    "provincia": "Alicante",
+    "latitud": 38.746975,
+    "longitud": -0.035202
+  },
+  {
+    "nombre": "Alcoi/Alcoy",
+    "provincia": "Alicante",
+    "latitud": 38.67864,
+    "longitud": -0.526251
+  },
+  {
+    "nombre": "Alcoleja",
+    "provincia": "Alicante",
+    "latitud": 38.668839,
+    "longitud": -0.325709
+  },
+  {
+    "nombre": "Alcosser",
+    "provincia": "Alicante",
+    "latitud": 38.794708,
+    "longitud": -0.402397
+  },
+  {
+    "nombre": "Alfafara",
+    "provincia": "Alicante",
+    "latitud": 38.779558,
+    "longitud": -0.575182
+  },
+  {
+    "nombre": "Alfas del Pi (L')",
+    "provincia": "Alicante",
+    "latitud": 38.564389,
+    "longitud": -0.064728
+  },
+  {
+    "nombre": "Algorfa",
+    "provincia": "Alicante",
+    "latitud": 38.065251,
+    "longitud": -0.777833
+  },
+  {
+    "nombre": "Algueña",
+    "provincia": "Alicante",
+    "latitud": 38.33674,
+    "longitud": -0.988328
+  },
+  {
+    "nombre": "Almoradi",
+    "provincia": "Alicante",
+    "latitud": 38.102993,
+    "longitud": -0.782097
+  },
+  {
+    "nombre": "Almudaina",
+    "provincia": "Alicante",
+    "latitud": 38.767503,
+    "longitud": -0.363327
+  },
+  {
+    "nombre": "Alqueria D'asnar (L')",
+    "provincia": "Alicante",
+    "latitud": 38.772835,
+    "longitud": -0.423765
+  },
+  {
+    "nombre": "Altea",
+    "provincia": "Alicante",
+    "latitud": 38.615325,
+    "longitud": -0.026762
+  },
+  {
+    "nombre": "Aspe",
+    "provincia": "Alicante",
+    "latitud": 38.334835,
+    "longitud": -0.798059
+  },
+  {
+    "nombre": "Atzubia, L'",
+    "provincia": "Alicante",
+    "latitud": 38.851012,
+    "longitud": -0.168489
+  },
+  {
+    "nombre": "Balones",
+    "provincia": "Alicante",
+    "latitud": 38.739338,
+    "longitud": -0.331474
+  },
+  {
+    "nombre": "Banyeres de Mariola",
+    "provincia": "Alicante",
+    "latitud": 38.708184,
+    "longitud": -0.673407
+  },
+  {
+    "nombre": "Benasau",
+    "provincia": "Alicante",
+    "latitud": 38.694582,
+    "longitud": -0.341307
+  },
+  {
+    "nombre": "Beneixama",
+    "provincia": "Alicante",
+    "latitud": 38.716501,
+    "longitud": -0.758212
+  },
+  {
+    "nombre": "Benejuzar",
+    "provincia": "Alicante",
+    "latitud": 38.078178,
+    "longitud": -0.830214
+  },
+  {
+    "nombre": "Benferri",
+    "provincia": "Alicante",
+    "latitud": 38.152676,
+    "longitud": -0.982232
+  },
+  {
+    "nombre": "Beniarbeig",
+    "provincia": "Alicante",
+    "latitud": 38.818214,
+    "longitud": -0.008473
+  },
+  {
+    "nombre": "Beniarda",
+    "provincia": "Alicante",
+    "latitud": 38.692772,
+    "longitud": -0.214408
+  },
+  {
+    "nombre": "Beniarres",
+    "provincia": "Alicante",
+    "latitud": 38.828006,
+    "longitud": -0.37087
+  },
+  {
+    "nombre": "Benidoleig",
+    "provincia": "Alicante",
+    "latitud": 38.796638,
+    "longitud": -0.031992
+  },
+  {
+    "nombre": "Benidorm",
+    "provincia": "Alicante",
+    "latitud": 38.535942,
+    "longitud": -0.116405
+  },
+  {
+    "nombre": "Benifallim",
+    "provincia": "Alicante",
+    "latitud": 38.653484,
+    "longitud": -0.41017
+  },
+  {
+    "nombre": "Benifato",
+    "provincia": "Alicante",
+    "latitud": 38.664825,
+    "longitud": -0.238944
+  },
+  {
+    "nombre": "Benigembla",
+    "provincia": "Alicante",
+    "latitud": 38.749982,
+    "longitud": -0.108896
+  },
+  {
+    "nombre": "Benijofar",
+    "provincia": "Alicante",
+    "latitud": 38.079896,
+    "longitud": -0.746481
+  },
+  {
+    "nombre": "Benilloba",
+    "provincia": "Alicante",
+    "latitud": 38.707122,
+    "longitud": -0.396262
+  },
+  {
+    "nombre": "Benillup",
+    "provincia": "Alicante",
+    "latitud": 38.760025,
+    "longitud": -0.384428
+  },
+  {
+    "nombre": "Benimantell",
+    "provincia": "Alicante",
+    "latitud": 38.657281,
+    "longitud": -0.195111
+  },
+  {
+    "nombre": "Benimarfull",
+    "provincia": "Alicante",
+    "latitud": 38.773573,
+    "longitud": -0.389902
+  },
+  {
+    "nombre": "Benimassot",
+    "provincia": "Alicante",
+    "latitud": 38.748478,
+    "longitud": -0.295473
+  },
+  {
+    "nombre": "Benimeli",
+    "provincia": "Alicante",
+    "latitud": 38.837589,
+    "longitud": -0.03387
+  },
+  {
+    "nombre": "Benissa",
+    "provincia": "Alicante",
+    "latitud": 38.682305,
+    "longitud": 0.067059
+  },
+  {
+    "nombre": "Biar",
+    "provincia": "Alicante",
+    "latitud": 38.657028,
+    "longitud": -0.754064
+  },
+  {
+    "nombre": "Bigastro",
+    "provincia": "Alicante",
+    "latitud": 38.060426,
+    "longitud": -0.898779
+  },
+  {
+    "nombre": "Bolulla",
+    "provincia": "Alicante",
+    "latitud": 38.693974,
+    "longitud": -0.130504
+  },
+  {
+    "nombre": "Busot",
+    "provincia": "Alicante",
+    "latitud": 38.513041,
+    "longitud": -0.43017
+  },
+  {
+    "nombre": "Callosa D'en Sarria",
+    "provincia": "Alicante",
+    "latitud": 38.648302,
+    "longitud": -0.100271
+  },
+  {
+    "nombre": "Callosa de Segura",
+    "provincia": "Alicante",
+    "latitud": 38.125858,
+    "longitud": -0.868493
+  },
+  {
+    "nombre": "Calp",
+    "provincia": "Alicante",
+    "latitud": 38.641329,
+    "longitud": 0.055969
+  },
+  {
+    "nombre": "Camp de Mirra, El/Campo de Mirra",
+    "provincia": "Alicante",
+    "latitud": 38.699038,
+    "longitud": -0.796458
+  },
+  {
+    "nombre": "Campello (El)",
+    "provincia": "Alicante",
+    "latitud": 38.446852,
+    "longitud": -0.364164
+  },
+  {
+    "nombre": "Castalla",
+    "provincia": "Alicante",
+    "latitud": 38.571522,
+    "longitud": -0.642181
+  },
+  {
+    "nombre": "Castell de Castells",
+    "provincia": "Alicante",
+    "latitud": 38.736706,
+    "longitud": -0.197399
+  },
+  {
+    "nombre": "Castell de Guadalest (El)",
+    "provincia": "Alicante",
+    "latitud": 38.663665,
+    "longitud": -0.183501
+  },
+  {
+    "nombre": "Catral",
+    "provincia": "Alicante",
+    "latitud": 38.156792,
+    "longitud": -0.798895
+  },
+  {
+    "nombre": "Cañada",
+    "provincia": "Alicante",
+    "latitud": 38.676177,
+    "longitud": -0.815958
+  },
+  {
+    "nombre": "Cocentaina",
+    "provincia": "Alicante",
+    "latitud": 38.737411,
+    "longitud": -0.437072
+  },
+  {
+    "nombre": "Confrides",
+    "provincia": "Alicante",
+    "latitud": 38.669533,
+    "longitud": -0.278361
+  },
+  {
+    "nombre": "Cox",
+    "provincia": "Alicante",
+    "latitud": 38.141535,
+    "longitud": -0.887952
+  },
+  {
+    "nombre": "Crevillent",
+    "provincia": "Alicante",
+    "latitud": 38.229018,
+    "longitud": -0.816925
+  },
+  {
+    "nombre": "Daya Nueva",
+    "provincia": "Alicante",
+    "latitud": 38.109077,
+    "longitud": -0.76687
+  },
+  {
+    "nombre": "Daya Vieja",
+    "provincia": "Alicante",
+    "latitud": 38.105173,
+    "longitud": -0.743532
+  },
+  {
+    "nombre": "Denia",
+    "provincia": "Alicante",
+    "latitud": 38.830437,
+    "longitud": 0.08502
+  },
+  {
+    "nombre": "Dolores",
+    "provincia": "Alicante",
+    "latitud": 38.1274,
+    "longitud": -0.762033
+  },
+  {
+    "nombre": "Elda",
+    "provincia": "Alicante",
+    "latitud": 38.470344,
+    "longitud": -0.793276
+  },
+  {
+    "nombre": "Elx/Elche",
+    "provincia": "Alicante",
+    "latitud": 38.218541,
+    "longitud": -0.603051
+  },
+  {
+    "nombre": "Fageca",
+    "provincia": "Alicante",
+    "latitud": 38.738667,
+    "longitud": -0.28045
+  },
+  {
+    "nombre": "Famorca",
+    "provincia": "Alicante",
+    "latitud": 38.727328,
+    "longitud": -0.236323
+  },
+  {
+    "nombre": "Finestrat",
+    "provincia": "Alicante",
+    "latitud": 38.554878,
+    "longitud": -0.19545
+  },
+  {
+    "nombre": "Fondo de les Neus (El)/Hondon de las Nieves",
+    "provincia": "Alicante",
+    "latitud": 38.306474,
+    "longitud": -0.892104
+  },
+  {
+    "nombre": "Formentera del Segura",
+    "provincia": "Alicante",
+    "latitud": 38.09241,
+    "longitud": -0.739056
+  },
+  {
+    "nombre": "Gaianes",
+    "provincia": "Alicante",
+    "latitud": 38.813086,
+    "longitud": -0.409349
+  },
+  {
+    "nombre": "Gata de Gorgos",
+    "provincia": "Alicante",
+    "latitud": 38.772559,
+    "longitud": 0.086889
+  },
+  {
+    "nombre": "Gorga",
+    "provincia": "Alicante",
+    "latitud": 38.723148,
+    "longitud": -0.378017
+  },
+  {
+    "nombre": "Granja de Rocamora",
+    "provincia": "Alicante",
+    "latitud": 38.155767,
+    "longitud": -0.87351
+  },
+  {
+    "nombre": "Guardamar del Segura",
+    "provincia": "Alicante",
+    "latitud": 38.078134,
+    "longitud": -0.648152
+  },
+  {
+    "nombre": "Hondon de los Frailes",
+    "provincia": "Alicante",
+    "latitud": 38.266319,
+    "longitud": -0.93014
+  },
+  {
+    "nombre": "Ibi",
+    "provincia": "Alicante",
+    "latitud": 38.628758,
+    "longitud": -0.570475
+  },
+  {
+    "nombre": "Jacarilla",
+    "provincia": "Alicante",
+    "latitud": 38.059603,
+    "longitud": -0.86605
+  },
+  {
+    "nombre": "Lliber",
+    "provincia": "Alicante",
+    "latitud": 38.717758,
+    "longitud": 0.006154
+  },
+  {
+    "nombre": "Millena",
+    "provincia": "Alicante",
+    "latitud": 38.736068,
+    "longitud": -0.381015
+  },
+  {
+    "nombre": "Monforte del Cid",
+    "provincia": "Alicante",
+    "latitud": 38.367991,
+    "longitud": -0.706172
+  },
+  {
+    "nombre": "Monover/Monovar",
+    "provincia": "Alicante",
+    "latitud": 38.427395,
+    "longitud": -0.924078
+  },
+  {
+    "nombre": "Montesinos (Los)",
+    "provincia": "Alicante",
+    "latitud": 38.025612,
+    "longitud": -0.758579
+  },
+  {
+    "nombre": "Murla",
+    "provincia": "Alicante",
+    "latitud": 38.763636,
+    "longitud": -0.079772
+  },
+  {
+    "nombre": "Muro de Alcoy",
+    "provincia": "Alicante",
+    "latitud": 38.782629,
+    "longitud": -0.431708
+  },
+  {
+    "nombre": "Mutxamel",
+    "provincia": "Alicante",
+    "latitud": 38.426698,
+    "longitud": -0.462155
+  },
+  {
+    "nombre": "Novelda",
+    "provincia": "Alicante",
+    "latitud": 38.376439,
+    "longitud": -0.786319
+  },
+  {
+    "nombre": "Nucia (La)",
+    "provincia": "Alicante",
+    "latitud": 38.60682,
+    "longitud": -0.125382
+  },
+  {
+    "nombre": "Ondara",
+    "provincia": "Alicante",
+    "latitud": 38.83314,
+    "longitud": 0.030003
+  },
+  {
+    "nombre": "Onil",
+    "provincia": "Alicante",
+    "latitud": 38.634344,
+    "longitud": -0.664615
+  },
+  {
+    "nombre": "Orba",
+    "provincia": "Alicante",
+    "latitud": 38.792296,
+    "longitud": -0.072487
+  },
+  {
+    "nombre": "Orihuela",
+    "provincia": "Alicante",
+    "latitud": 38.001756,
+    "longitud": -0.82348
+  },
+  {
+    "nombre": "Orxa, L'/Lorcha",
+    "provincia": "Alicante",
+    "latitud": 38.854182,
+    "longitud": -0.322884
+  },
+  {
+    "nombre": "Orxeta",
+    "provincia": "Alicante",
+    "latitud": 38.547108,
+    "longitud": -0.290285
+  },
+  {
+    "nombre": "Parcent",
+    "provincia": "Alicante",
+    "latitud": 38.74195,
+    "longitud": -0.076228
+  },
+  {
+    "nombre": "Pedreguer",
+    "provincia": "Alicante",
+    "latitud": 38.806712,
+    "longitud": 0.048134
+  },
+  {
+    "nombre": "Pego",
+    "provincia": "Alicante",
+    "latitud": 38.851436,
+    "longitud": -0.092225
+  },
+  {
+    "nombre": "Penaguila",
+    "provincia": "Alicante",
+    "latitud": 38.660774,
+    "longitud": -0.377282
+  },
+  {
+    "nombre": "Petrer",
+    "provincia": "Alicante",
+    "latitud": 38.48372,
+    "longitud": -0.75087
+  },
+  {
+    "nombre": "Pilar de la Horadada",
+    "provincia": "Alicante",
+    "latitud": 37.883058,
+    "longitud": -0.796052
+  },
+  {
+    "nombre": "Pinos (El)/Pinoso",
+    "provincia": "Alicante",
+    "latitud": 38.400644,
+    "longitud": -1.019189
+  },
+  {
+    "nombre": "Planes",
+    "provincia": "Alicante",
+    "latitud": 38.791808,
+    "longitud": -0.346767
+  },
+  {
+    "nombre": "Poble Nou de Benitatxell, El/Benitachell",
+    "provincia": "Alicante",
+    "latitud": 38.708154,
+    "longitud": 0.16321
+  },
+  {
+    "nombre": "Poblets (Els)",
+    "provincia": "Alicante",
+    "latitud": 38.857975,
+    "longitud": 0.018729
+  },
+  {
+    "nombre": "Polop",
+    "provincia": "Alicante",
+    "latitud": 38.617151,
+    "longitud": -0.147556
+  },
+  {
+    "nombre": "Quatretondeta",
+    "provincia": "Alicante",
+    "latitud": 38.723334,
+    "longitud": -0.321381
+  },
+  {
+    "nombre": "Rafal",
+    "provincia": "Alicante",
+    "latitud": 38.106874,
+    "longitud": -0.848966
+  },
+  {
+    "nombre": "Rafol D'almunia (El)",
+    "provincia": "Alicante",
+    "latitud": 38.829183,
+    "longitud": -0.046439
+  },
+  {
+    "nombre": "Redovan",
+    "provincia": "Alicante",
+    "latitud": 38.121483,
+    "longitud": -0.920456
+  },
+  {
+    "nombre": "Relleu",
+    "provincia": "Alicante",
+    "latitud": 38.567199,
+    "longitud": -0.347215
+  },
+  {
+    "nombre": "Rojales",
+    "provincia": "Alicante",
+    "latitud": 38.080282,
+    "longitud": -0.742289
+  },
+  {
+    "nombre": "Romana (La)",
+    "provincia": "Alicante",
+    "latitud": 38.351535,
+    "longitud": -0.910987
+  },
+  {
+    "nombre": "Sagra",
+    "provincia": "Alicante",
+    "latitud": 38.814724,
+    "longitud": -0.062018
+  },
+  {
+    "nombre": "Salinas",
+    "provincia": "Alicante",
+    "latitud": 38.516988,
+    "longitud": -0.909414
+  },
+  {
+    "nombre": "San Fulgencio",
+    "provincia": "Alicante",
+    "latitud": 38.127836,
+    "longitud": -0.712643
+  },
+  {
+    "nombre": "San Isidro",
+    "provincia": "Alicante",
+    "latitud": 38.175127,
+    "longitud": -0.850436
+  },
+  {
+    "nombre": "San Miguel de Salinas",
+    "provincia": "Alicante",
+    "latitud": 37.99773,
+    "longitud": -0.790101
+  },
+  {
+    "nombre": "Sanet y Negrals",
+    "provincia": "Alicante",
+    "latitud": 38.810501,
+    "longitud": -0.029611
+  },
+  {
+    "nombre": "Sant Joan D'alacant",
+    "provincia": "Alicante",
+    "latitud": 38.405319,
+    "longitud": -0.426951
+  },
+  {
+    "nombre": "Sant Vicent del Raspeig/San Vicente del Raspeig",
+    "provincia": "Alicante",
+    "latitud": 38.433253,
+    "longitud": -0.551452
+  },
+  {
+    "nombre": "Santa Pola",
+    "provincia": "Alicante",
+    "latitud": 38.19193,
+    "longitud": -0.564863
+  },
+  {
+    "nombre": "Sax",
+    "provincia": "Alicante",
+    "latitud": 38.541974,
+    "longitud": -0.804799
+  },
+  {
+    "nombre": "Sella",
+    "provincia": "Alicante",
+    "latitud": 38.614368,
+    "longitud": -0.282715
+  },
+  {
+    "nombre": "Senija",
+    "provincia": "Alicante",
+    "latitud": 38.735211,
+    "longitud": 0.04425
+  },
+  {
+    "nombre": "Tarbena",
+    "provincia": "Alicante",
+    "latitud": 38.708859,
+    "longitud": -0.093661
+  },
+  {
+    "nombre": "Teulada",
+    "provincia": "Alicante",
+    "latitud": 38.68869,
+    "longitud": 0.135085
+  },
+  {
+    "nombre": "Tibi",
+    "provincia": "Alicante",
+    "latitud": 38.53106,
+    "longitud": -0.597348
+  },
+  {
+    "nombre": "Tollos",
+    "provincia": "Alicante",
+    "latitud": 38.761074,
+    "longitud": -0.246139
+  },
+  {
+    "nombre": "Tormos",
+    "provincia": "Alicante",
+    "latitud": 38.804136,
+    "longitud": -0.067761
+  },
+  {
+    "nombre": "Torre de les Maçanes, La/Torremanzanas",
+    "provincia": "Alicante",
+    "latitud": 38.607836,
+    "longitud": -0.402694
+  },
+  {
+    "nombre": "Torrevieja",
+    "provincia": "Alicante",
+    "latitud": 37.98519,
+    "longitud": -0.674201
+  },
+  {
+    "nombre": "Vall D'alcala (La)",
+    "provincia": "Alicante",
+    "latitud": 38.78843,
+    "longitud": -0.251265
+  },
+  {
+    "nombre": "Vall D'ebo (La)",
+    "provincia": "Alicante",
+    "latitud": 38.802847,
+    "longitud": -0.188264
+  },
+  {
+    "nombre": "Vall de Gallinera (La)",
+    "provincia": "Alicante",
+    "latitud": 38.823464,
+    "longitud": -0.219899
+  },
+  {
+    "nombre": "Vall de Laguar (La)",
+    "provincia": "Alicante",
+    "latitud": 38.767595,
+    "longitud": -0.124283
+  },
+  {
+    "nombre": "Verger (El)",
+    "provincia": "Alicante",
+    "latitud": 38.856534,
+    "longitud": -0.001405
+  },
+  {
+    "nombre": "Vila Joiosa, La/Villajoyosa",
+    "provincia": "Alicante",
+    "latitud": 38.5079,
+    "longitud": -0.228029
+  },
+  {
+    "nombre": "Villena",
+    "provincia": "Alicante",
+    "latitud": 38.668424,
+    "longitud": -0.905878
+  },
+  {
+    "nombre": "Xabia/Javea",
+    "provincia": "Alicante",
+    "latitud": 38.766029,
+    "longitud": 0.193025
+  },
+  {
+    "nombre": "Xalo",
+    "provincia": "Alicante",
+    "latitud": 38.720107,
+    "longitud": -0.038759
+  },
+  {
+    "nombre": "Xixona/Jijona",
+    "provincia": "Alicante",
+    "latitud": 38.534698,
+    "longitud": -0.452875
+  },
+  {
+    "nombre": "Ain",
+    "provincia": "Castellón",
+    "latitud": 39.89105,
+    "longitud": -0.345534
+  },
+  {
+    "nombre": "Albocasser",
+    "provincia": "Castellón",
+    "latitud": 40.394184,
+    "longitud": 0.029215
+  },
+  {
+    "nombre": "Alcala de Xivert",
+    "provincia": "Castellón",
+    "latitud": 40.252757,
+    "longitud": 0.27635
+  },
+  {
+    "nombre": "Alcora (L')",
+    "provincia": "Castellón",
+    "latitud": 40.045343,
+    "longitud": -0.223912
+  },
+  {
+    "nombre": "Alcudia de Veo",
+    "provincia": "Castellón",
+    "latitud": 39.922625,
+    "longitud": -0.350295
+  },
+  {
+    "nombre": "Alfondeguilla",
+    "provincia": "Castellón",
+    "latitud": 39.833118,
+    "longitud": -0.275902
+  },
+  {
+    "nombre": "Algimia de Almonacid",
+    "provincia": "Castellón",
+    "latitud": 39.914663,
+    "longitud": -0.421895
+  },
+  {
+    "nombre": "Almassora",
+    "provincia": "Castellón",
+    "latitud": 39.944774,
+    "longitud": -0.046177
+  },
+  {
+    "nombre": "Almedijar",
+    "provincia": "Castellón",
+    "latitud": 39.869013,
+    "longitud": -0.403121
+  },
+  {
+    "nombre": "Almenara",
+    "provincia": "Castellón",
+    "latitud": 39.747155,
+    "longitud": -0.226056
+  },
+  {
+    "nombre": "Alqueries (Les)/Alquerias del Niño Perdido",
+    "provincia": "Castellón",
+    "latitud": 39.889233,
+    "longitud": -0.131803
+  },
+  {
+    "nombre": "Altura",
+    "provincia": "Castellón",
+    "latitud": 39.84028,
+    "longitud": -0.525522
+  },
+  {
+    "nombre": "Arañuel",
+    "provincia": "Castellón",
+    "latitud": 40.085446,
+    "longitud": -0.485922
+  },
+  {
+    "nombre": "Ares del Maestrat",
+    "provincia": "Castellón",
+    "latitud": 40.434528,
+    "longitud": -0.094266
+  },
+  {
+    "nombre": "Argelita",
+    "provincia": "Castellón",
+    "latitud": 40.070086,
+    "longitud": -0.337753
+  },
+  {
+    "nombre": "Artana",
+    "provincia": "Castellón",
+    "latitud": 39.898504,
+    "longitud": -0.248167
+  },
+  {
+    "nombre": "Atzeneta del Maestrat",
+    "provincia": "Castellón",
+    "latitud": 40.233461,
+    "longitud": -0.154319
+  },
+  {
+    "nombre": "Ayodar",
+    "provincia": "Castellón",
+    "latitud": 39.986634,
+    "longitud": -0.386899
+  },
+  {
+    "nombre": "Azuebar",
+    "provincia": "Castellón",
+    "latitud": 39.848712,
+    "longitud": -0.362206
+  },
+  {
+    "nombre": "Barracas",
+    "provincia": "Castellón",
+    "latitud": 39.982843,
+    "longitud": -0.687605
+  },
+  {
+    "nombre": "Bejis",
+    "provincia": "Castellón",
+    "latitud": 39.897014,
+    "longitud": -0.738023
+  },
+  {
+    "nombre": "Benafer",
+    "provincia": "Castellón",
+    "latitud": 39.969996,
+    "longitud": -0.605227
+  },
+  {
+    "nombre": "Benafigos",
+    "provincia": "Castellón",
+    "latitud": 40.280851,
+    "longitud": -0.182968
+  },
+  {
+    "nombre": "Benassal",
+    "provincia": "Castellón",
+    "latitud": 40.37896,
+    "longitud": -0.188768
+  },
+  {
+    "nombre": "Benicarlo",
+    "provincia": "Castellón",
+    "latitud": 40.435549,
+    "longitud": 0.420572
+  },
+  {
+    "nombre": "Benicassim/Benicasim",
+    "provincia": "Castellón",
+    "latitud": 40.043938,
+    "longitud": 0.061631
+  },
+  {
+    "nombre": "Benlloc",
+    "provincia": "Castellón",
+    "latitud": 40.209446,
+    "longitud": 0.064723
+  },
+  {
+    "nombre": "Betxi",
+    "provincia": "Castellón",
+    "latitud": 39.920051,
+    "longitud": -0.200317
+  },
+  {
+    "nombre": "Borriana/Burriana",
+    "provincia": "Castellón",
+    "latitud": 39.874456,
+    "longitud": -0.071229
+  },
+  {
+    "nombre": "Borriol",
+    "provincia": "Castellón",
+    "latitud": 40.035166,
+    "longitud": -0.095446
+  },
+  {
+    "nombre": "Cabanes",
+    "provincia": "Castellón",
+    "latitud": 40.144739,
+    "longitud": 0.144076
+  },
+  {
+    "nombre": "Calig",
+    "provincia": "Castellón",
+    "latitud": 40.471187,
+    "longitud": 0.35722
+  },
+  {
+    "nombre": "Canet Lo Roig",
+    "provincia": "Castellón",
+    "latitud": 40.57948,
+    "longitud": 0.238985
+  },
+  {
+    "nombre": "Castell de Cabres",
+    "provincia": "Castellón",
+    "latitud": 40.672142,
+    "longitud": 0.026633
+  },
+  {
+    "nombre": "Castellfort",
+    "provincia": "Castellón",
+    "latitud": 40.517982,
+    "longitud": -0.207848
+  },
+  {
+    "nombre": "Castellnovo",
+    "provincia": "Castellón",
+    "latitud": 39.84833,
+    "longitud": -0.45468
+  },
+  {
+    "nombre": "Castello de la Plana",
+    "provincia": "Castellón",
+    "latitud": 39.897027,
+    "longitud": 0.683903
+  },
+  {
+    "nombre": "Castillo de Villamalefa",
+    "provincia": "Castellón",
+    "latitud": 40.154412,
+    "longitud": -0.370101
+  },
+  {
+    "nombre": "Cati",
+    "provincia": "Castellón",
+    "latitud": 40.463111,
+    "longitud": 0.012852
+  },
+  {
+    "nombre": "Caudiel",
+    "provincia": "Castellón",
+    "latitud": 39.993789,
+    "longitud": -0.593976
+  },
+  {
+    "nombre": "Cervera del Maestre",
+    "provincia": "Castellón",
+    "latitud": 40.430529,
+    "longitud": 0.282375
+  },
+  {
+    "nombre": "Chilches/Xilxes",
+    "provincia": "Castellón",
+    "latitud": 39.770181,
+    "longitud": -0.165712
+  },
+  {
+    "nombre": "Chovar",
+    "provincia": "Castellón",
+    "latitud": 39.851406,
+    "longitud": -0.330855
+  },
+  {
+    "nombre": "Cinctorres",
+    "provincia": "Castellón",
+    "latitud": 40.573559,
+    "longitud": -0.219946
+  },
+  {
+    "nombre": "Cirat",
+    "provincia": "Castellón",
+    "latitud": 40.050349,
+    "longitud": -0.458089
+  },
+  {
+    "nombre": "Cortes de Arenoso",
+    "provincia": "Castellón",
+    "latitud": 40.158183,
+    "longitud": -0.534421
+  },
+  {
+    "nombre": "Costur",
+    "provincia": "Castellón",
+    "latitud": 40.128742,
+    "longitud": -0.158594
+  },
+  {
+    "nombre": "Coves de Vinroma (Les)",
+    "provincia": "Castellón",
+    "latitud": 40.316968,
+    "longitud": 0.09286
+  },
+  {
+    "nombre": "Culla",
+    "provincia": "Castellón",
+    "latitud": 40.305591,
+    "longitud": -0.134025
+  },
+  {
+    "nombre": "Eslida",
+    "provincia": "Castellón",
+    "latitud": 39.883236,
+    "longitud": -0.311078
+  },
+  {
+    "nombre": "Espadilla",
+    "provincia": "Castellón",
+    "latitud": 40.025323,
+    "longitud": -0.363715
+  },
+  {
+    "nombre": "Fanzara",
+    "provincia": "Castellón",
+    "latitud": 40.01391,
+    "longitud": -0.315106
+  },
+  {
+    "nombre": "Figueroles",
+    "provincia": "Castellón",
+    "latitud": 40.13041,
+    "longitud": -0.215353
+  },
+  {
+    "nombre": "Forcall",
+    "provincia": "Castellón",
+    "latitud": 40.658882,
+    "longitud": -0.211913
+  },
+  {
+    "nombre": "Fuente la Reina",
+    "provincia": "Castellón",
+    "latitud": 40.063869,
+    "longitud": -0.61428
+  },
+  {
+    "nombre": "Fuentes de Ayodar",
+    "provincia": "Castellón",
+    "latitud": 40.018393,
+    "longitud": -0.427229
+  },
+  {
+    "nombre": "Gaibiel",
+    "provincia": "Castellón",
+    "latitud": 39.932304,
+    "longitud": -0.508353
+  },
+  {
+    "nombre": "Geldo",
+    "provincia": "Castellón",
+    "latitud": 39.836423,
+    "longitud": -0.466635
+  },
+  {
+    "nombre": "Herbers",
+    "provincia": "Castellón",
+    "latitud": 40.713782,
+    "longitud": -0.013975
+  },
+  {
+    "nombre": "Higueras",
+    "provincia": "Castellón",
+    "latitud": 39.987132,
+    "longitud": -0.503813
+  },
+  {
+    "nombre": "Jana (La)",
+    "provincia": "Castellón",
+    "latitud": 40.503944,
+    "longitud": 0.22785
+  },
+  {
+    "nombre": "Jerica",
+    "provincia": "Castellón",
+    "latitud": 39.898877,
+    "longitud": -0.5883
+  },
+  {
+    "nombre": "Llosa (La)",
+    "provincia": "Castellón",
+    "latitud": 39.760594,
+    "longitud": -0.195228
+  },
+  {
+    "nombre": "Llucena/Lucena del Cid",
+    "provincia": "Castellón",
+    "latitud": 40.13627,
+    "longitud": -0.296274
+  },
+  {
+    "nombre": "Ludiente",
+    "provincia": "Castellón",
+    "latitud": 40.096854,
+    "longitud": -0.374957
+  },
+  {
+    "nombre": "Mata de Morella (La)",
+    "provincia": "Castellón",
+    "latitud": 40.610387,
+    "longitud": -0.274219
+  },
+  {
+    "nombre": "Matet",
+    "provincia": "Castellón",
+    "latitud": 39.946876,
+    "longitud": -0.459532
+  },
+  {
+    "nombre": "Moncofa",
+    "provincia": "Castellón",
+    "latitud": 39.796054,
+    "longitud": -0.134522
+  },
+  {
+    "nombre": "Montan",
+    "provincia": "Castellón",
+    "latitud": 40.032388,
+    "longitud": -0.554723
+  },
+  {
+    "nombre": "Montanejos",
+    "provincia": "Castellón",
+    "latitud": 40.069175,
+    "longitud": -0.530637
+  },
+  {
+    "nombre": "Morella",
+    "provincia": "Castellón",
+    "latitud": 40.580915,
+    "longitud": -0.079619
+  },
+  {
+    "nombre": "Navajas",
+    "provincia": "Castellón",
+    "latitud": 39.881563,
+    "longitud": -0.501818
+  },
+  {
+    "nombre": "Nules",
+    "provincia": "Castellón",
+    "latitud": 39.839395,
+    "longitud": -0.121999
+  },
+  {
+    "nombre": "Olocau del Rey",
+    "provincia": "Castellón",
+    "latitud": 40.639877,
+    "longitud": -0.343293
+  },
+  {
+    "nombre": "Onda",
+    "provincia": "Castellón",
+    "latitud": 39.995724,
+    "longitud": -0.2178
+  },
+  {
+    "nombre": "Orpesa/Oropesa del Mar",
+    "provincia": "Castellón",
+    "latitud": 40.078643,
+    "longitud": 0.128631
+  },
+  {
+    "nombre": "Palanques",
+    "provincia": "Castellón",
+    "latitud": 40.712069,
+    "longitud": -0.18572
+  },
+  {
+    "nombre": "Pavias",
+    "provincia": "Castellón",
+    "latitud": 39.969255,
+    "longitud": -0.47668
+  },
+  {
+    "nombre": "Peniscola/Peñiscola",
+    "provincia": "Castellón",
+    "latitud": 40.340962,
+    "longitud": 0.37406
+  },
+  {
+    "nombre": "Pina de Montalgrao",
+    "provincia": "Castellón",
+    "latitud": 40.029975,
+    "longitud": -0.666814
+  },
+  {
+    "nombre": "Pobla Tornesa (La)",
+    "provincia": "Castellón",
+    "latitud": 40.1074,
+    "longitud": -0.015018
+  },
+  {
+    "nombre": "Pobla de Benifassa (La)",
+    "provincia": "Castellón",
+    "latitud": 40.696991,
+    "longitud": 0.206394
+  },
+  {
+    "nombre": "Portell de Morella",
+    "provincia": "Castellón",
+    "latitud": 40.527031,
+    "longitud": -0.271909
+  },
+  {
+    "nombre": "Puebla de Arenoso",
+    "provincia": "Castellón",
+    "latitud": 40.104416,
+    "longitud": -0.573887
+  },
+  {
+    "nombre": "Ribesalbes",
+    "provincia": "Castellón",
+    "latitud": 40.023604,
+    "longitud": -0.272001
+  },
+  {
+    "nombre": "Rossell",
+    "provincia": "Castellón",
+    "latitud": 40.626805,
+    "longitud": 0.254887
+  },
+  {
+    "nombre": "Sacañet",
+    "provincia": "Castellón",
+    "latitud": 39.845322,
+    "longitud": -0.731935
+  },
+  {
+    "nombre": "Salzadella (La)",
+    "provincia": "Castellón",
+    "latitud": 40.428303,
+    "longitud": 0.131624
+  },
+  {
+    "nombre": "San Rafael del Rio",
+    "provincia": "Castellón",
+    "latitud": 40.592396,
+    "longitud": 0.336811
+  },
+  {
+    "nombre": "Sant Joan de Moro",
+    "provincia": "Castellón",
+    "latitud": 40.081716,
+    "longitud": -0.112324
+  },
+  {
+    "nombre": "Sant Jordi/San Jorge",
+    "provincia": "Castellón",
+    "latitud": 40.531595,
+    "longitud": 0.359977
+  },
+  {
+    "nombre": "Sant Mateu",
+    "provincia": "Castellón",
+    "latitud": 40.471268,
+    "longitud": 0.158965
+  },
+  {
+    "nombre": "Santa Magdalena de Pulpis",
+    "provincia": "Castellón",
+    "latitud": 40.381714,
+    "longitud": 0.277041
+  },
+  {
+    "nombre": "Segorbe",
+    "provincia": "Castellón",
+    "latitud": 39.817956,
+    "longitud": -0.460602
+  },
+  {
+    "nombre": "Serratella (La)",
+    "provincia": "Castellón",
+    "latitud": 40.302208,
+    "longitud": 0.019851
+  },
+  {
+    "nombre": "Sierra Engarceran",
+    "provincia": "Castellón",
+    "latitud": 40.272457,
+    "longitud": -0.024012
+  },
+  {
+    "nombre": "Soneja",
+    "provincia": "Castellón",
+    "latitud": 39.823853,
+    "longitud": -0.387248
+  },
+  {
+    "nombre": "Sot de Ferrer",
+    "provincia": "Castellón",
+    "latitud": 39.79322,
+    "longitud": -0.404868
+  },
+  {
+    "nombre": "Suera/Sueras",
+    "provincia": "Castellón",
+    "latitud": 39.950847,
+    "longitud": -0.362122
+  },
+  {
+    "nombre": "Tales",
+    "provincia": "Castellón",
+    "latitud": 39.943304,
+    "longitud": -0.300615
+  },
+  {
+    "nombre": "Teresa",
+    "provincia": "Castellón",
+    "latitud": 39.877103,
+    "longitud": -0.680404
+  },
+  {
+    "nombre": "Tirig",
+    "provincia": "Castellón",
+    "latitud": 40.43272,
+    "longitud": 0.069064
+  },
+  {
+    "nombre": "Todolella",
+    "provincia": "Castellón",
+    "latitud": 40.64535,
+    "longitud": -0.265681
+  },
+  {
+    "nombre": "Toga",
+    "provincia": "Castellón",
+    "latitud": 40.050446,
+    "longitud": -0.374656
+  },
+  {
+    "nombre": "Toras",
+    "provincia": "Castellón",
+    "latitud": 39.931812,
+    "longitud": -0.69787
+  },
+  {
+    "nombre": "Toro (El)",
+    "provincia": "Castellón",
+    "latitud": 39.971134,
+    "longitud": -0.770366
+  },
+  {
+    "nombre": "Torralba del Pinar",
+    "provincia": "Castellón",
+    "latitud": 39.996827,
+    "longitud": -0.453614
+  },
+  {
+    "nombre": "Torre D'en Besora, La",
+    "provincia": "Castellón",
+    "latitud": 40.327697,
+    "longitud": -0.077683
+  },
+  {
+    "nombre": "Torre D'en Domenec (La)",
+    "provincia": "Castellón",
+    "latitud": 40.267742,
+    "longitud": 0.070344
+  },
+  {
+    "nombre": "Torreblanca",
+    "provincia": "Castellón",
+    "latitud": 40.196533,
+    "longitud": 0.224572
+  },
+  {
+    "nombre": "Torrechiva",
+    "provincia": "Castellón",
+    "latitud": 40.050799,
+    "longitud": -0.40303
+  },
+  {
+    "nombre": "Traiguera",
+    "provincia": "Castellón",
+    "latitud": 40.565542,
+    "longitud": 0.331847
+  },
+  {
+    "nombre": "Useres, Les/Useras",
+    "provincia": "Castellón",
+    "latitud": 40.180768,
+    "longitud": -0.137832
+  },
+  {
+    "nombre": "Vall D'alba",
+    "provincia": "Castellón",
+    "latitud": 40.179107,
+    "longitud": -0.03447
+  },
+  {
+    "nombre": "Vall D'uixo (La)",
+    "provincia": "Castellón",
+    "latitud": 39.822308,
+    "longitud": -0.249383
+  },
+  {
+    "nombre": "Vall de Almonacid",
+    "provincia": "Castellón",
+    "latitud": 39.898832,
+    "longitud": -0.457038
+  },
+  {
+    "nombre": "Vallat",
+    "provincia": "Castellón",
+    "latitud": 40.035097,
+    "longitud": -0.338555
+  },
+  {
+    "nombre": "Vallibona",
+    "provincia": "Castellón",
+    "latitud": 40.602768,
+    "longitud": 0.074337
+  },
+  {
+    "nombre": "Vila-real",
+    "provincia": "Castellón",
+    "latitud": 39.940818,
+    "longitud": -0.123985
+  },
+  {
+    "nombre": "Vilafames",
+    "provincia": "Castellón",
+    "latitud": 40.103817,
+    "longitud": -0.091111
+  },
+  {
+    "nombre": "Vilafranca/Villafranca del Cid",
+    "provincia": "Castellón",
+    "latitud": 40.430341,
+    "longitud": -0.278529
+  },
+  {
+    "nombre": "Vilanova D'alcolea",
+    "provincia": "Castellón",
+    "latitud": 40.247774,
+    "longitud": 0.095358
+  },
+  {
+    "nombre": "Vilar de Canes",
+    "provincia": "Castellón",
+    "latitud": 40.347985,
+    "longitud": -0.070536
+  },
+  {
+    "nombre": "Vilavella (La)",
+    "provincia": "Castellón",
+    "latitud": 39.862165,
+    "longitud": -0.192674
+  },
+  {
+    "nombre": "Villahermosa del Rio",
+    "provincia": "Castellón",
+    "latitud": 40.195113,
+    "longitud": -0.418638
+  },
+  {
+    "nombre": "Villamalur",
+    "provincia": "Castellón",
+    "latitud": 39.96018,
+    "longitud": -0.404815
+  },
+  {
+    "nombre": "Villanueva de Viver",
+    "provincia": "Castellón",
+    "latitud": 40.064646,
+    "longitud": -0.634362
+  },
+  {
+    "nombre": "Villores",
+    "provincia": "Castellón",
+    "latitud": 40.679306,
+    "longitud": -0.208627
+  },
+  {
+    "nombre": "Vinaros",
+    "provincia": "Castellón",
+    "latitud": 40.483816,
+    "longitud": 0.47655
+  },
+  {
+    "nombre": "Vistabella del Maestrat",
+    "provincia": "Castellón",
+    "latitud": 40.322703,
+    "longitud": -0.324679
+  },
+  {
+    "nombre": "Viver",
+    "provincia": "Castellón",
+    "latitud": 39.934944,
+    "longitud": -0.634729
+  },
+  {
+    "nombre": "Xert",
+    "provincia": "Castellón",
+    "latitud": 40.524524,
+    "longitud": 0.11411
+  },
+  {
+    "nombre": "Xodos/Chodos",
+    "provincia": "Castellón",
+    "latitud": 40.242976,
+    "longitud": -0.312538
+  },
+  {
+    "nombre": "Zorita del Maestrazgo",
+    "provincia": "Castellón",
+    "latitud": 40.739287,
+    "longitud": -0.175881
+  },
+  {
+    "nombre": "Zucaina",
+    "provincia": "Castellón",
+    "latitud": 40.132952,
+    "longitud": -0.435544
+  },
+  {
+    "nombre": "Ademuz",
+    "provincia": "Valencia",
+    "latitud": 40.086803,
+    "longitud": -1.216644
+  },
+  {
+    "nombre": "Ador",
+    "provincia": "Valencia",
+    "latitud": 38.910263,
+    "longitud": -0.228183
+  },
+  {
+    "nombre": "Agullent",
+    "provincia": "Valencia",
+    "latitud": 38.841393,
+    "longitud": -0.555231
+  },
+  {
+    "nombre": "Aielo de Malferit",
+    "provincia": "Valencia",
+    "latitud": 38.885416,
+    "longitud": -0.603412
+  },
+  {
+    "nombre": "Aielo de Rugat",
+    "provincia": "Valencia",
+    "latitud": 38.884774,
+    "longitud": -0.350684
+  },
+  {
+    "nombre": "Alaquas",
+    "provincia": "Valencia",
+    "latitud": 39.454084,
+    "longitud": -0.453896
+  },
+  {
+    "nombre": "Albaida",
+    "provincia": "Valencia",
+    "latitud": 38.852851,
+    "longitud": -0.527713
+  },
+  {
+    "nombre": "Albal",
+    "provincia": "Valencia",
+    "latitud": 39.389005,
+    "longitud": -0.402859
+  },
+  {
+    "nombre": "Albalat Dels Sorells",
+    "provincia": "Valencia",
+    "latitud": 39.543811,
+    "longitud": -0.340213
+  },
+  {
+    "nombre": "Albalat Dels Tarongers",
+    "provincia": "Valencia",
+    "latitud": 39.681545,
+    "longitud": -0.357903
+  },
+  {
+    "nombre": "Albalat de la Ribera",
+    "provincia": "Valencia",
+    "latitud": 39.233625,
+    "longitud": -0.373539
+  },
+  {
+    "nombre": "Alberic",
+    "provincia": "Valencia",
+    "latitud": 39.117742,
+    "longitud": -0.520448
+  },
+  {
+    "nombre": "Alborache",
+    "provincia": "Valencia",
+    "latitud": 39.381397,
+    "longitud": -0.758784
+  },
+  {
+    "nombre": "Alboraia/Alboraya",
+    "provincia": "Valencia",
+    "latitud": 39.503595,
+    "longitud": -0.34021
+  },
+  {
+    "nombre": "Albuixech",
+    "provincia": "Valencia",
+    "latitud": 39.541704,
+    "longitud": -0.317151
+  },
+  {
+    "nombre": "Alcantera de Xuquer",
+    "provincia": "Valencia",
+    "latitud": 39.064715,
+    "longitud": -0.560892
+  },
+  {
+    "nombre": "Alcasser",
+    "provincia": "Valencia",
+    "latitud": 39.37413,
+    "longitud": -0.442432
+  },
+  {
+    "nombre": "Alcublas",
+    "provincia": "Valencia",
+    "latitud": 39.801026,
+    "longitud": -0.695323
+  },
+  {
+    "nombre": "Alcudia (L')",
+    "provincia": "Valencia",
+    "latitud": 39.192149,
+    "longitud": -0.517251
+  },
+  {
+    "nombre": "Alcudia de Crespins (L')",
+    "provincia": "Valencia",
+    "latitud": 38.971762,
+    "longitud": -0.60389
+  },
+  {
+    "nombre": "Aldaia",
+    "provincia": "Valencia",
+    "latitud": 39.450403,
+    "longitud": -0.510225
+  },
+  {
+    "nombre": "Alfafar",
+    "provincia": "Valencia",
+    "latitud": 39.415392,
+    "longitud": -0.376189
+  },
+  {
+    "nombre": "Alfara de la Baronia",
+    "provincia": "Valencia",
+    "latitud": 39.770364,
+    "longitud": -0.354179
+  },
+  {
+    "nombre": "Alfara del Patriarca",
+    "provincia": "Valencia",
+    "latitud": 39.538502,
+    "longitud": -0.381679
+  },
+  {
+    "nombre": "Alfarb",
+    "provincia": "Valencia",
+    "latitud": 39.282357,
+    "longitud": -0.533343
+  },
+  {
+    "nombre": "Alfarrasi",
+    "provincia": "Valencia",
+    "latitud": 38.906765,
+    "longitud": -0.495149
+  },
+  {
+    "nombre": "Alfauir",
+    "provincia": "Valencia",
+    "latitud": 38.932419,
+    "longitud": -0.245693
+  },
+  {
+    "nombre": "Algar de Palancia",
+    "provincia": "Valencia",
+    "latitud": 39.776411,
+    "longitud": -0.365999
+  },
+  {
+    "nombre": "Algemesi",
+    "provincia": "Valencia",
+    "latitud": 39.237785,
+    "longitud": -0.402164
+  },
+  {
+    "nombre": "Algimia D'alfara",
+    "provincia": "Valencia",
+    "latitud": 39.742755,
+    "longitud": -0.394259
+  },
+  {
+    "nombre": "Alginet",
+    "provincia": "Valencia",
+    "latitud": 39.265342,
+    "longitud": -0.47657
+  },
+  {
+    "nombre": "Almassera",
+    "provincia": "Valencia",
+    "latitud": 39.515448,
+    "longitud": -0.349293
+  },
+  {
+    "nombre": "Almisera",
+    "provincia": "Valencia",
+    "latitud": 38.922963,
+    "longitud": -0.280574
+  },
+  {
+    "nombre": "Almoines",
+    "provincia": "Valencia",
+    "latitud": 38.946317,
+    "longitud": -0.180771
+  },
+  {
+    "nombre": "Almussafes",
+    "provincia": "Valencia",
+    "latitud": 39.294977,
+    "longitud": -0.410892
+  },
+  {
+    "nombre": "Alpuente",
+    "provincia": "Valencia",
+    "latitud": 39.923262,
+    "longitud": -1.034597
+  },
+  {
+    "nombre": "Alqueria de la Comtessa (L')",
+    "provincia": "Valencia",
+    "latitud": 38.936362,
+    "longitud": -0.154965
+  },
+  {
+    "nombre": "Alzira",
+    "provincia": "Valencia",
+    "latitud": 39.140618,
+    "longitud": -0.432892
+  },
+  {
+    "nombre": "Andilla",
+    "provincia": "Valencia",
+    "latitud": 39.819753,
+    "longitud": -0.799873
+  },
+  {
+    "nombre": "Anna",
+    "provincia": "Valencia",
+    "latitud": 39.010491,
+    "longitud": -0.643648
+  },
+  {
+    "nombre": "Antella",
+    "provincia": "Valencia",
+    "latitud": 39.085061,
+    "longitud": -0.606224
+  },
+  {
+    "nombre": "Aras de los Olmos",
+    "provincia": "Valencia",
+    "latitud": 39.933822,
+    "longitud": -1.170816
+  },
+  {
+    "nombre": "Atzeneta D'albaida",
+    "provincia": "Valencia",
+    "latitud": 38.832534,
+    "longitud": -0.489333
+  },
+  {
+    "nombre": "Ayora",
+    "provincia": "Valencia",
+    "latitud": 39.033361,
+    "longitud": -0.995857
+  },
+  {
+    "nombre": "Barx",
+    "provincia": "Valencia",
+    "latitud": 39.009956,
+    "longitud": -0.308199
+  },
+  {
+    "nombre": "Barxeta",
+    "provincia": "Valencia",
+    "latitud": 39.014276,
+    "longitud": -0.42968
+  },
+  {
+    "nombre": "Belgida",
+    "provincia": "Valencia",
+    "latitud": 38.866008,
+    "longitud": -0.462186
+  },
+  {
+    "nombre": "Bellreguard",
+    "provincia": "Valencia",
+    "latitud": 38.948575,
+    "longitud": -0.159909
+  },
+  {
+    "nombre": "Bellus",
+    "provincia": "Valencia",
+    "latitud": 38.946168,
+    "longitud": -0.498475
+  },
+  {
+    "nombre": "Benageber",
+    "provincia": "Valencia",
+    "latitud": 39.725914,
+    "longitud": -1.129306
+  },
+  {
+    "nombre": "Benaguasil",
+    "provincia": "Valencia",
+    "latitud": 39.583603,
+    "longitud": -0.61458
+  },
+  {
+    "nombre": "Benavites",
+    "provincia": "Valencia",
+    "latitud": 39.733542,
+    "longitud": -0.236473
+  },
+  {
+    "nombre": "Beneixida",
+    "provincia": "Valencia",
+    "latitud": 39.073924,
+    "longitud": -0.550802
+  },
+  {
+    "nombre": "Benetusser",
+    "provincia": "Valencia",
+    "latitud": 39.425079,
+    "longitud": -0.400327
+  },
+  {
+    "nombre": "Beniarjo",
+    "provincia": "Valencia",
+    "latitud": 38.932325,
+    "longitud": -0.197635
+  },
+  {
+    "nombre": "Beniatjar",
+    "provincia": "Valencia",
+    "latitud": 38.860734,
+    "longitud": -0.425234
+  },
+  {
+    "nombre": "Benicolet",
+    "provincia": "Valencia",
+    "latitud": 38.910829,
+    "longitud": -0.347653
+  },
+  {
+    "nombre": "Benicull de Xuquer",
+    "provincia": "Valencia",
+    "latitud": 39.187739,
+    "longitud": -0.38601
+  },
+  {
+    "nombre": "Benifaio",
+    "provincia": "Valencia",
+    "latitud": 39.287877,
+    "longitud": -0.443683
+  },
+  {
+    "nombre": "Benifairo de la Valldigna",
+    "provincia": "Valencia",
+    "latitud": 39.059135,
+    "longitud": -0.304579
+  },
+  {
+    "nombre": "Benifairo de les Valls",
+    "provincia": "Valencia",
+    "latitud": 39.723222,
+    "longitud": -0.273267
+  },
+  {
+    "nombre": "Benifla",
+    "provincia": "Valencia",
+    "latitud": 38.926611,
+    "longitud": -0.192377
+  },
+  {
+    "nombre": "Beniganim",
+    "provincia": "Valencia",
+    "latitud": 38.952446,
+    "longitud": -0.447241
+  },
+  {
+    "nombre": "Benimodo",
+    "provincia": "Valencia",
+    "latitud": 39.144917,
+    "longitud": -0.538076
+  },
+  {
+    "nombre": "Benimuslem",
+    "provincia": "Valencia",
+    "latitud": 39.134949,
+    "longitud": -0.491217
+  },
+  {
+    "nombre": "Beniparrell",
+    "provincia": "Valencia",
+    "latitud": 39.383782,
+    "longitud": -0.412273
+  },
+  {
+    "nombre": "Benirredra",
+    "provincia": "Valencia",
+    "latitud": 38.961161,
+    "longitud": -0.195375
+  },
+  {
+    "nombre": "Benissano",
+    "provincia": "Valencia",
+    "latitud": 39.612727,
+    "longitud": -0.581422
+  },
+  {
+    "nombre": "Benissoda",
+    "provincia": "Valencia",
+    "latitud": 38.827695,
+    "longitud": -0.530056
+  },
+  {
+    "nombre": "Benissuera",
+    "provincia": "Valencia",
+    "latitud": 38.907934,
+    "longitud": -0.484974
+  },
+  {
+    "nombre": "Betera",
+    "provincia": "Valencia",
+    "latitud": 39.584892,
+    "longitud": -0.476652
+  },
+  {
+    "nombre": "Bicorp",
+    "provincia": "Valencia",
+    "latitud": 39.108842,
+    "longitud": -0.839167
+  },
+  {
+    "nombre": "Bocairent",
+    "provincia": "Valencia",
+    "latitud": 38.738063,
+    "longitud": -0.607907
+  },
+  {
+    "nombre": "Bolbaite",
+    "provincia": "Valencia",
+    "latitud": 39.052155,
+    "longitud": -0.76298
+  },
+  {
+    "nombre": "Bonrepos i Mirambell",
+    "provincia": "Valencia",
+    "latitud": 39.521249,
+    "longitud": -0.367951
+  },
+  {
+    "nombre": "Bufali",
+    "provincia": "Valencia",
+    "latitud": 38.878536,
+    "longitud": -0.519057
+  },
+  {
+    "nombre": "Bugarra",
+    "provincia": "Valencia",
+    "latitud": 39.61181,
+    "longitud": -0.779254
+  },
+  {
+    "nombre": "Burjassot",
+    "provincia": "Valencia",
+    "latitud": 39.504452,
+    "longitud": -0.404954
+  },
+  {
+    "nombre": "Buñol",
+    "provincia": "Valencia",
+    "latitud": 39.403119,
+    "longitud": -0.926034
+  },
+  {
+    "nombre": "Calles",
+    "provincia": "Valencia",
+    "latitud": 39.732347,
+    "longitud": -0.980588
+  },
+  {
+    "nombre": "Camporrobles",
+    "provincia": "Valencia",
+    "latitud": 39.620381,
+    "longitud": -1.373621
+  },
+  {
+    "nombre": "Canals",
+    "provincia": "Valencia",
+    "latitud": 38.964726,
+    "longitud": -0.586337
+  },
+  {
+    "nombre": "Canet D'en Berenguer",
+    "provincia": "Valencia",
+    "latitud": 39.677161,
+    "longitud": -0.209802
+  },
+  {
+    "nombre": "Carcaixent",
+    "provincia": "Valencia",
+    "latitud": 39.107831,
+    "longitud": -0.457325
+  },
+  {
+    "nombre": "Carcer",
+    "provincia": "Valencia",
+    "latitud": 39.062798,
+    "longitud": -0.568242
+  },
+  {
+    "nombre": "Carlet",
+    "provincia": "Valencia",
+    "latitud": 39.231766,
+    "longitud": -0.526442
+  },
+  {
+    "nombre": "Carricola",
+    "provincia": "Valencia",
+    "latitud": 38.842887,
+    "longitud": -0.472102
+  },
+  {
+    "nombre": "Casas Altas",
+    "provincia": "Valencia",
+    "latitud": 40.03022,
+    "longitud": -1.257219
+  },
+  {
+    "nombre": "Casas Bajas",
+    "provincia": "Valencia",
+    "latitud": 40.01853,
+    "longitud": -1.269666
+  },
+  {
+    "nombre": "Casinos",
+    "provincia": "Valencia",
+    "latitud": 39.694541,
+    "longitud": -0.741623
+  },
+  {
+    "nombre": "Castello",
+    "provincia": "Valencia",
+    "latitud": 39.075438,
+    "longitud": -0.519783
+  },
+  {
+    "nombre": "Castello de Rugat",
+    "provincia": "Valencia",
+    "latitud": 38.880531,
+    "longitud": -0.375973
+  },
+  {
+    "nombre": "Castellonet de la Conquesta",
+    "provincia": "Valencia",
+    "latitud": 38.90628,
+    "longitud": -0.266145
+  },
+  {
+    "nombre": "Castielfabib",
+    "provincia": "Valencia",
+    "latitud": 40.137873,
+    "longitud": -1.306229
+  },
+  {
+    "nombre": "Catadau",
+    "provincia": "Valencia",
+    "latitud": 39.263607,
+    "longitud": -0.581271
+  },
+  {
+    "nombre": "Catarroja",
+    "provincia": "Valencia",
+    "latitud": 39.401636,
+    "longitud": -0.404854
+  },
+  {
+    "nombre": "Caudete de las Fuentes",
+    "provincia": "Valencia",
+    "latitud": 39.549784,
+    "longitud": -1.294519
+  },
+  {
+    "nombre": "Cerda",
+    "provincia": "Valencia",
+    "latitud": 38.984814,
+    "longitud": -0.614241
+  },
+  {
+    "nombre": "Chella",
+    "provincia": "Valencia",
+    "latitud": 39.044807,
+    "longitud": -0.697386
+  },
+  {
+    "nombre": "Chelva",
+    "provincia": "Valencia",
+    "latitud": 39.730278,
+    "longitud": -1.003687
+  },
+  {
+    "nombre": "Chera",
+    "provincia": "Valencia",
+    "latitud": 39.579303,
+    "longitud": -0.937103
+  },
+  {
+    "nombre": "Cheste",
+    "provincia": "Valencia",
+    "latitud": 39.499448,
+    "longitud": -0.707797
+  },
+  {
+    "nombre": "Chiva",
+    "provincia": "Valencia",
+    "latitud": 39.472272,
+    "longitud": -0.658439
+  },
+  {
+    "nombre": "Chulilla",
+    "provincia": "Valencia",
+    "latitud": 39.650178,
+    "longitud": -0.851942
+  },
+  {
+    "nombre": "Cofrentes",
+    "provincia": "Valencia",
+    "latitud": 39.260735,
+    "longitud": -1.096363
+  },
+  {
+    "nombre": "Corbera",
+    "provincia": "Valencia",
+    "latitud": 39.159187,
+    "longitud": -0.34697
+  },
+  {
+    "nombre": "Cortes de Pallas",
+    "provincia": "Valencia",
+    "latitud": 39.24343,
+    "longitud": -0.907914
+  },
+  {
+    "nombre": "Cotes",
+    "provincia": "Valencia",
+    "latitud": 39.0608,
+    "longitud": -0.591604
+  },
+  {
+    "nombre": "Cullera",
+    "provincia": "Valencia",
+    "latitud": 39.161752,
+    "longitud": -0.238003
+  },
+  {
+    "nombre": "Daimus",
+    "provincia": "Valencia",
+    "latitud": 38.972826,
+    "longitud": -0.149399
+  },
+  {
+    "nombre": "Domeño",
+    "provincia": "Valencia",
+    "latitud": 39.655924,
+    "longitud": -0.671447
+  },
+  {
+    "nombre": "Dos Aguas",
+    "provincia": "Valencia",
+    "latitud": 39.267604,
+    "longitud": -0.797045
+  },
+  {
+    "nombre": "Eliana (L')",
+    "provincia": "Valencia",
+    "latitud": 39.568998,
+    "longitud": -0.529554
+  },
+  {
+    "nombre": "Emperador",
+    "provincia": "Valencia",
+    "latitud": 39.553963,
+    "longitud": -0.339729
+  },
+  {
+    "nombre": "Enguera",
+    "provincia": "Valencia",
+    "latitud": 38.985476,
+    "longitud": -0.847736
+  },
+  {
+    "nombre": "Enova (L')",
+    "provincia": "Valencia",
+    "latitud": 39.04614,
+    "longitud": -0.463509
+  },
+  {
+    "nombre": "Estivella",
+    "provincia": "Valencia",
+    "latitud": 39.717622,
+    "longitud": -0.365035
+  },
+  {
+    "nombre": "Estubeny",
+    "provincia": "Valencia",
+    "latitud": 39.011061,
+    "longitud": -0.615807
+  },
+  {
+    "nombre": "Faura",
+    "provincia": "Valencia",
+    "latitud": 39.727079,
+    "longitud": -0.260605
+  },
+  {
+    "nombre": "Favara",
+    "provincia": "Valencia",
+    "latitud": 39.117325,
+    "longitud": -0.302057
+  },
+  {
+    "nombre": "Foios",
+    "provincia": "Valencia",
+    "latitud": 39.542055,
+    "longitud": -0.353013
+  },
+  {
+    "nombre": "Font D'en Carros, La",
+    "provincia": "Valencia",
+    "latitud": 38.915931,
+    "longitud": -0.162407
+  },
+  {
+    "nombre": "Font de la Figuera (La)",
+    "provincia": "Valencia",
+    "latitud": 38.827752,
+    "longitud": -0.85615
+  },
+  {
+    "nombre": "Fontanars Dels Alforins",
+    "provincia": "Valencia",
+    "latitud": 38.776006,
+    "longitud": -0.782654
+  },
+  {
+    "nombre": "Fortaleny",
+    "provincia": "Valencia",
+    "latitud": 39.18351,
+    "longitud": -0.319598
+  },
+  {
+    "nombre": "Fuenterrobles",
+    "provincia": "Valencia",
+    "latitud": 39.584773,
+    "longitud": -1.367766
+  },
+  {
+    "nombre": "Gandia",
+    "provincia": "Valencia",
+    "latitud": 38.993588,
+    "longitud": -0.180452
+  },
+  {
+    "nombre": "Gatova",
+    "provincia": "Valencia",
+    "latitud": 39.746615,
+    "longitud": -0.51013
+  },
+  {
+    "nombre": "Gavarda",
+    "provincia": "Valencia",
+    "latitud": 39.084347,
+    "longitud": -0.552792
+  },
+  {
+    "nombre": "Genoves (El)",
+    "provincia": "Valencia",
+    "latitud": 38.98916,
+    "longitud": -0.469561
+  },
+  {
+    "nombre": "Gestalgar",
+    "provincia": "Valencia",
+    "latitud": 39.587521,
+    "longitud": -0.849795
+  },
+  {
+    "nombre": "Gilet",
+    "provincia": "Valencia",
+    "latitud": 39.673458,
+    "longitud": -0.330261
+  },
+  {
+    "nombre": "Godella",
+    "provincia": "Valencia",
+    "latitud": 39.527789,
+    "longitud": -0.411387
+  },
+  {
+    "nombre": "Godelleta",
+    "provincia": "Valencia",
+    "latitud": 39.430388,
+    "longitud": -0.689416
+  },
+  {
+    "nombre": "Granja de la Costera (La)",
+    "provincia": "Valencia",
+    "latitud": 38.995256,
+    "longitud": -0.559439
+  },
+  {
+    "nombre": "Guadassequies",
+    "provincia": "Valencia",
+    "latitud": 38.927622,
+    "longitud": -0.494408
+  },
+  {
+    "nombre": "Guadassuar",
+    "provincia": "Valencia",
+    "latitud": 39.176765,
+    "longitud": -0.520004
+  },
+  {
+    "nombre": "Guardamar de la Safor",
+    "provincia": "Valencia",
+    "latitud": 38.963893,
+    "longitud": -0.145483
+  },
+  {
+    "nombre": "Higueruelas",
+    "provincia": "Valencia",
+    "latitud": 39.77905,
+    "longitud": -0.861553
+  },
+  {
+    "nombre": "Jalance",
+    "provincia": "Valencia",
+    "latitud": 39.207365,
+    "longitud": -1.117165
+  },
+  {
+    "nombre": "Jarafuel",
+    "provincia": "Valencia",
+    "latitud": 39.146001,
+    "longitud": -1.084531
+  },
+  {
+    "nombre": "Llanera de Ranes",
+    "provincia": "Valencia",
+    "latitud": 38.999374,
+    "longitud": -0.59186
+  },
+  {
+    "nombre": "Llauri",
+    "provincia": "Valencia",
+    "latitud": 39.136385,
+    "longitud": -0.325112
+  },
+  {
+    "nombre": "Lliria",
+    "provincia": "Valencia",
+    "latitud": 39.681602,
+    "longitud": -0.604292
+  },
+  {
+    "nombre": "Llocnou D'en Fenollet",
+    "provincia": "Valencia",
+    "latitud": 39.008771,
+    "longitud": -0.469034
+  },
+  {
+    "nombre": "Llocnou de Sant Jeroni",
+    "provincia": "Valencia",
+    "latitud": 38.901724,
+    "longitud": -0.291533
+  },
+  {
+    "nombre": "Llocnou de la Corona",
+    "provincia": "Valencia",
+    "latitud": 39.420743,
+    "longitud": -0.38246
+  },
+  {
+    "nombre": "Llombai",
+    "provincia": "Valencia",
+    "latitud": 39.294412,
+    "longitud": -0.574415
+  },
+  {
+    "nombre": "Llosa de Ranes (La)",
+    "provincia": "Valencia",
+    "latitud": 39.027787,
+    "longitud": -0.538459
+  },
+  {
+    "nombre": "Llutxent",
+    "provincia": "Valencia",
+    "latitud": 38.94087,
+    "longitud": -0.337953
+  },
+  {
+    "nombre": "Loriguilla",
+    "provincia": "Valencia",
+    "latitud": 39.649726,
+    "longitud": -0.980254
+  },
+  {
+    "nombre": "Losa del Obispo",
+    "provincia": "Valencia",
+    "latitud": 39.694405,
+    "longitud": -0.876213
+  },
+  {
+    "nombre": "Macastre",
+    "provincia": "Valencia",
+    "latitud": 39.351131,
+    "longitud": -0.803582
+  },
+  {
+    "nombre": "Manises",
+    "provincia": "Valencia",
+    "latitud": 39.494907,
+    "longitud": -0.488212
+  },
+  {
+    "nombre": "Manuel",
+    "provincia": "Valencia",
+    "latitud": 39.054465,
+    "longitud": -0.492609
+  },
+  {
+    "nombre": "Marines",
+    "provincia": "Valencia",
+    "latitud": 39.688719,
+    "longitud": -0.554747
+  },
+  {
+    "nombre": "Massalaves",
+    "provincia": "Valencia",
+    "latitud": 39.150871,
+    "longitud": -0.515932
+  },
+  {
+    "nombre": "Massalfassar",
+    "provincia": "Valencia",
+    "latitud": 39.552971,
+    "longitud": -0.314417
+  },
+  {
+    "nombre": "Massamagrell",
+    "provincia": "Valencia",
+    "latitud": 39.569184,
+    "longitud": -0.321331
+  },
+  {
+    "nombre": "Massanassa",
+    "provincia": "Valencia",
+    "latitud": 39.402869,
+    "longitud": -0.382341
+  },
+  {
+    "nombre": "Meliana",
+    "provincia": "Valencia",
+    "latitud": 39.522525,
+    "longitud": -0.332208
+  },
+  {
+    "nombre": "Millares",
+    "provincia": "Valencia",
+    "latitud": 39.226349,
+    "longitud": -0.772561
+  },
+  {
+    "nombre": "Miramar",
+    "provincia": "Valencia",
+    "latitud": 38.95564,
+    "longitud": -0.13276
+  },
+  {
+    "nombre": "Mislata",
+    "provincia": "Valencia",
+    "latitud": 39.474514,
+    "longitud": -0.423008
+  },
+  {
+    "nombre": "Moixent/Mogente",
+    "provincia": "Valencia",
+    "latitud": 38.84032,
+    "longitud": -0.837143
+  },
+  {
+    "nombre": "Moncada",
+    "provincia": "Valencia",
+    "latitud": 39.555663,
+    "longitud": -0.393171
+  },
+  {
+    "nombre": "Montaverner",
+    "provincia": "Valencia",
+    "latitud": 38.88932,
+    "longitud": -0.490946
+  },
+  {
+    "nombre": "Montesa",
+    "provincia": "Valencia",
+    "latitud": 38.940717,
+    "longitud": -0.637061
+  },
+  {
+    "nombre": "Montitxelvo/Montichelvo",
+    "provincia": "Valencia",
+    "latitud": 38.884831,
+    "longitud": -0.333719
+  },
+  {
+    "nombre": "Montroi/Montroy",
+    "provincia": "Valencia",
+    "latitud": 39.333401,
+    "longitud": -0.642405
+  },
+  {
+    "nombre": "Montserrat",
+    "provincia": "Valencia",
+    "latitud": 39.347745,
+    "longitud": -0.591667
+  },
+  {
+    "nombre": "Museros",
+    "provincia": "Valencia",
+    "latitud": 39.568589,
+    "longitud": -0.350495
+  },
+  {
+    "nombre": "Naquera",
+    "provincia": "Valencia",
+    "latitud": 39.644785,
+    "longitud": -0.417252
+  },
+  {
+    "nombre": "Navarres",
+    "provincia": "Valencia",
+    "latitud": 39.082521,
+    "longitud": -0.745437
+  },
+  {
+    "nombre": "Novetle",
+    "provincia": "Valencia",
+    "latitud": 38.97877,
+    "longitud": -0.552476
+  },
+  {
+    "nombre": "Oliva",
+    "provincia": "Valencia",
+    "latitud": 38.901408,
+    "longitud": -0.08599
+  },
+  {
+    "nombre": "Olleria (L')",
+    "provincia": "Valencia",
+    "latitud": 38.909422,
+    "longitud": -0.548721
+  },
+  {
+    "nombre": "Olocau",
+    "provincia": "Valencia",
+    "latitud": 39.680753,
+    "longitud": -0.536731
+  },
+  {
+    "nombre": "Ontinyent",
+    "provincia": "Valencia",
+    "latitud": 38.81825,
+    "longitud": -0.665596
+  },
+  {
+    "nombre": "Otos",
+    "provincia": "Valencia",
+    "latitud": 38.861883,
+    "longitud": -0.443029
+  },
+  {
+    "nombre": "Paiporta",
+    "provincia": "Valencia",
+    "latitud": 39.419512,
+    "longitud": -0.412504
+  },
+  {
+    "nombre": "Palma de Gandia",
+    "provincia": "Valencia",
+    "latitud": 38.939771,
+    "longitud": -0.230038
+  },
+  {
+    "nombre": "Palmera",
+    "provincia": "Valencia",
+    "latitud": 38.942419,
+    "longitud": -0.153219
+  },
+  {
+    "nombre": "Palomar (El)",
+    "provincia": "Valencia",
+    "latitud": 38.870403,
+    "longitud": -0.504736
+  },
+  {
+    "nombre": "Paterna",
+    "provincia": "Valencia",
+    "latitud": 39.523759,
+    "longitud": -0.464364
+  },
+  {
+    "nombre": "Pedralba",
+    "provincia": "Valencia",
+    "latitud": 39.59988,
+    "longitud": -0.720691
+  },
+  {
+    "nombre": "Petres",
+    "provincia": "Valencia",
+    "latitud": 39.684792,
+    "longitud": -0.314777
+  },
+  {
+    "nombre": "Picanya",
+    "provincia": "Valencia",
+    "latitud": 39.444075,
+    "longitud": -0.436282
+  },
+  {
+    "nombre": "Picassent",
+    "provincia": "Valencia",
+    "latitud": 39.351928,
+    "longitud": -0.462196
+  },
+  {
+    "nombre": "Piles",
+    "provincia": "Valencia",
+    "latitud": 38.945802,
+    "longitud": -0.124115
+  },
+  {
+    "nombre": "Pinet",
+    "provincia": "Valencia",
+    "latitud": 38.987839,
+    "longitud": -0.318771
+  },
+  {
+    "nombre": "Pobla Llarga (La)",
+    "provincia": "Valencia",
+    "latitud": 39.080626,
+    "longitud": -0.471355
+  },
+  {
+    "nombre": "Pobla de Farnals (La)",
+    "provincia": "Valencia",
+    "latitud": 39.571773,
+    "longitud": -0.307125
+  },
+  {
+    "nombre": "Pobla de Vallbona (La)",
+    "provincia": "Valencia",
+    "latitud": 39.588464,
+    "longitud": -0.543745
+  },
+  {
+    "nombre": "Pobla del Duc (La)",
+    "provincia": "Valencia",
+    "latitud": 38.902,
+    "longitud": -0.429015
+  },
+  {
+    "nombre": "Polinya de Xuquer",
+    "provincia": "Valencia",
+    "latitud": 39.189639,
+    "longitud": -0.380341
+  },
+  {
+    "nombre": "Potries",
+    "provincia": "Valencia",
+    "latitud": 38.915091,
+    "longitud": -0.191879
+  },
+  {
+    "nombre": "Puebla de San Miguel",
+    "provincia": "Valencia",
+    "latitud": 40.080504,
+    "longitud": -1.1329
+  },
+  {
+    "nombre": "Puig de Santa Maria (El)",
+    "provincia": "Valencia",
+    "latitud": 39.58829,
+    "longitud": -0.296936
+  },
+  {
+    "nombre": "Puçol",
+    "provincia": "Valencia",
+    "latitud": 39.609455,
+    "longitud": -0.280569
+  },
+  {
+    "nombre": "Quart de Poblet",
+    "provincia": "Valencia",
+    "latitud": 39.47836,
+    "longitud": -0.483795
+  },
+  {
+    "nombre": "Quart de les Valls",
+    "provincia": "Valencia",
+    "latitud": 39.748437,
+    "longitud": -0.286381
+  },
+  {
+    "nombre": "Quartell",
+    "provincia": "Valencia",
+    "latitud": 39.723046,
+    "longitud": -0.231246
+  },
+  {
+    "nombre": "Quatretonda",
+    "provincia": "Valencia",
+    "latitud": 38.965722,
+    "longitud": -0.395746
+  },
+  {
+    "nombre": "Quesa",
+    "provincia": "Valencia",
+    "latitud": 39.075612,
+    "longitud": -0.811275
+  },
+  {
+    "nombre": "Rafelbunyol",
+    "provincia": "Valencia",
+    "latitud": 39.595433,
+    "longitud": -0.344605
+  },
+  {
+    "nombre": "Rafelcofer",
+    "provincia": "Valencia",
+    "latitud": 38.933358,
+    "longitud": -0.171066
+  },
+  {
+    "nombre": "Rafelguaraf",
+    "provincia": "Valencia",
+    "latitud": 39.050096,
+    "longitud": -0.444956
+  },
+  {
+    "nombre": "Rafol de Salem",
+    "provincia": "Valencia",
+    "latitud": 38.865116,
+    "longitud": -0.408004
+  },
+  {
+    "nombre": "Real",
+    "provincia": "Valencia",
+    "latitud": 39.326374,
+    "longitud": -0.610266
+  },
+  {
+    "nombre": "Real de Gandia, El",
+    "provincia": "Valencia",
+    "latitud": 38.948269,
+    "longitud": -0.201646
+  },
+  {
+    "nombre": "Requena",
+    "provincia": "Valencia",
+    "latitud": 39.406665,
+    "longitud": -1.221321
+  },
+  {
+    "nombre": "Riba-roja de Turia",
+    "provincia": "Valencia",
+    "latitud": 39.496706,
+    "longitud": -0.561958
+  },
+  {
+    "nombre": "Riola",
+    "provincia": "Valencia",
+    "latitud": 39.192615,
+    "longitud": -0.336809
+  },
+  {
+    "nombre": "Rocafort",
+    "provincia": "Valencia",
+    "latitud": 39.532857,
+    "longitud": -0.41301
+  },
+  {
+    "nombre": "Rotgla i Corbera",
+    "provincia": "Valencia",
+    "latitud": 39.011824,
+    "longitud": -0.5607
+  },
+  {
+    "nombre": "Rotova",
+    "provincia": "Valencia",
+    "latitud": 38.938643,
+    "longitud": -0.271957
+  },
+  {
+    "nombre": "Rugat",
+    "provincia": "Valencia",
+    "latitud": 38.88282,
+    "longitud": -0.356246
+  },
+  {
+    "nombre": "Sagunt/Sagunto",
+    "provincia": "Valencia",
+    "latitud": 39.695484,
+    "longitud": -0.26213
+  },
+  {
+    "nombre": "Salem",
+    "provincia": "Valencia",
+    "latitud": 38.850474,
+    "longitud": -0.380763
+  },
+  {
+    "nombre": "San Antonio de Benageber",
+    "provincia": "Valencia",
+    "latitud": 39.56198,
+    "longitud": -0.494698
+  },
+  {
+    "nombre": "Sant Joanet",
+    "provincia": "Valencia",
+    "latitud": 39.072775,
+    "longitud": -0.488565
+  },
+  {
+    "nombre": "Sedavi",
+    "provincia": "Valencia",
+    "latitud": 39.423559,
+    "longitud": -0.373177
+  },
+  {
+    "nombre": "Segart",
+    "provincia": "Valencia",
+    "latitud": 39.681501,
+    "longitud": -0.3844
+  },
+  {
+    "nombre": "Sellent",
+    "provincia": "Valencia",
+    "latitud": 39.029859,
+    "longitud": -0.585047
+  },
+  {
+    "nombre": "Sempere",
+    "provincia": "Valencia",
+    "latitud": 38.916515,
+    "longitud": -0.475783
+  },
+  {
+    "nombre": "Senyera",
+    "provincia": "Valencia",
+    "latitud": 39.064545,
+    "longitud": -0.507225
+  },
+  {
+    "nombre": "Serra",
+    "provincia": "Valencia",
+    "latitud": 39.673401,
+    "longitud": -0.47878
+  },
+  {
+    "nombre": "Siete Aguas",
+    "provincia": "Valencia",
+    "latitud": 39.496992,
+    "longitud": -0.936588
+  },
+  {
+    "nombre": "Silla",
+    "provincia": "Valencia",
+    "latitud": 39.36118,
+    "longitud": -0.403972
+  },
+  {
+    "nombre": "Simat de la Valldigna",
+    "provincia": "Valencia",
+    "latitud": 39.034536,
+    "longitud": -0.33779
+  },
+  {
+    "nombre": "Sinarcas",
+    "provincia": "Valencia",
+    "latitud": 39.753831,
+    "longitud": -1.205523
+  },
+  {
+    "nombre": "Sollana",
+    "provincia": "Valencia",
+    "latitud": 39.249311,
+    "longitud": -0.39394
+  },
+  {
+    "nombre": "Sot de Chera",
+    "provincia": "Valencia",
+    "latitud": 39.593146,
+    "longitud": -0.917357
+  },
+  {
+    "nombre": "Sueca",
+    "provincia": "Valencia",
+    "latitud": 39.237271,
+    "longitud": -0.295341
+  },
+  {
+    "nombre": "Sumacarcer",
+    "provincia": "Valencia",
+    "latitud": 39.092167,
+    "longitud": -0.62395
+  },
+  {
+    "nombre": "Tavernes Blanques",
+    "provincia": "Valencia",
+    "latitud": 39.506157,
+    "longitud": -0.362796
+  },
+  {
+    "nombre": "Tavernes de la Valldigna",
+    "provincia": "Valencia",
+    "latitud": 39.08471,
+    "longitud": -0.232493
+  },
+  {
+    "nombre": "Teresa de Cofrentes",
+    "provincia": "Valencia",
+    "latitud": 39.111167,
+    "longitud": -0.971173
+  },
+  {
+    "nombre": "Terrateig",
+    "provincia": "Valencia",
+    "latitud": 38.901142,
+    "longitud": -0.313789
+  },
+  {
+    "nombre": "Titaguas",
+    "provincia": "Valencia",
+    "latitud": 39.849394,
+    "longitud": -1.083028
+  },
+  {
+    "nombre": "Torrebaja",
+    "provincia": "Valencia",
+    "latitud": 40.099892,
+    "longitud": -1.260362
+  },
+  {
+    "nombre": "Torrella",
+    "provincia": "Valencia",
+    "latitud": 38.987725,
+    "longitud": -0.572456
+  },
+  {
+    "nombre": "Torrent",
+    "provincia": "Valencia",
+    "latitud": 39.43546,
+    "longitud": -0.523576
+  },
+  {
+    "nombre": "Torres Torres",
+    "provincia": "Valencia",
+    "latitud": 39.733032,
+    "longitud": -0.380953
+  },
+  {
+    "nombre": "Tous",
+    "provincia": "Valencia",
+    "latitud": 39.159029,
+    "longitud": -0.647805
+  },
+  {
+    "nombre": "Tuejar",
+    "provincia": "Valencia",
+    "latitud": 39.799779,
+    "longitud": -1.122432
+  },
+  {
+    "nombre": "Turis",
+    "provincia": "Valencia",
+    "latitud": 39.378602,
+    "longitud": -0.673596
+  },
+  {
+    "nombre": "Utiel",
+    "provincia": "Valencia",
+    "latitud": 39.600316,
+    "longitud": -1.205106
+  },
+  {
+    "nombre": "Valencia",
+    "provincia": "Valencia",
+    "latitud": 39.453017,
+    "longitud": -0.361291
+  },
+  {
+    "nombre": "Vallada",
+    "provincia": "Valencia",
+    "latitud": 38.897192,
+    "longitud": -0.709631
+  },
+  {
+    "nombre": "Vallanca",
+    "provincia": "Valencia",
+    "latitud": 40.06067,
+    "longitud": -1.359994
+  },
+  {
+    "nombre": "Valles",
+    "provincia": "Valencia",
+    "latitud": 38.988523,
+    "longitud": -0.552965
+  },
+  {
+    "nombre": "Venta del Moro",
+    "provincia": "Valencia",
+    "latitud": 39.416806,
+    "longitud": -1.450425
+  },
+  {
+    "nombre": "Vilallonga/Villalonga",
+    "provincia": "Valencia",
+    "latitud": 38.89049,
+    "longitud": -0.23156
+  },
+  {
+    "nombre": "Vilamarxant",
+    "provincia": "Valencia",
+    "latitud": 39.583393,
+    "longitud": -0.630538
+  },
+  {
+    "nombre": "Villar del Arzobispo",
+    "provincia": "Valencia",
+    "latitud": 39.700023,
+    "longitud": -0.822455
+  },
+  {
+    "nombre": "Villargordo del Cabriel",
+    "provincia": "Valencia",
+    "latitud": 39.538828,
+    "longitud": -1.491275
+  },
+  {
+    "nombre": "Vinalesa",
+    "provincia": "Valencia",
+    "latitud": 39.533191,
+    "longitud": -0.368549
+  },
+  {
+    "nombre": "Xativa",
+    "provincia": "Valencia",
+    "latitud": 38.997207,
+    "longitud": -0.525657
+  },
+  {
+    "nombre": "Xeraco",
+    "provincia": "Valencia",
+    "latitud": 39.042429,
+    "longitud": -0.203968
+  },
+  {
+    "nombre": "Xeresa",
+    "provincia": "Valencia",
+    "latitud": 39.011642,
+    "longitud": -0.23358
+  },
+  {
+    "nombre": "Xirivella",
+    "provincia": "Valencia",
+    "latitud": 39.455417,
+    "longitud": -0.441058
+  },
+  {
+    "nombre": "Yatova",
+    "provincia": "Valencia",
+    "latitud": 39.371393,
+    "longitud": -0.946016
+  },
+  {
+    "nombre": "Yesa (La)",
+    "provincia": "Valencia",
+    "latitud": 39.91298,
+    "longitud": -0.923229
+  },
+  {
+    "nombre": "Zarra",
+    "provincia": "Valencia",
+    "latitud": 39.10421,
+    "longitud": -1.115859
+  }
+]
