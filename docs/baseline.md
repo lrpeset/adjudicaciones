@@ -109,17 +109,19 @@ informe detallado. Cuando un cambio funcional autorizado altere las métricas:
 
 ## Actualizar dependencias
 
-Los locks se regeneran deliberadamente apuntando a Python 3.10:
+Los locks se regeneran con un intérprete Python 3.10 real. No basta con pasar
+`--python-version 3.10` a `pip`, porque `pip-compile` evalúa las dependencias
+condicionales con la versión del intérprete que lo ejecuta:
 
 ```powershell
-py -3.12 -m pip install "pip-tools>=7.4.0"
-py -3.12 -m piptools compile --strip-extras --generate-hashes --pip-args="--python-version 3.10 --only-binary=:all:" --output-file requirements.txt pyproject.toml
-py -3.12 -m piptools compile --strip-extras --allow-unsafe --extra dev --generate-hashes --pip-args="--python-version 3.10 --only-binary=:all:" --output-file requirements-dev.txt pyproject.toml
+py -3.10 -m pip install "pip-tools>=7.4.0" typing-extensions
+py -3.10 -m piptools compile --strip-extras --generate-hashes --pip-args="--only-binary=:all:" --output-file requirements.txt pyproject.toml
+py -3.10 -m piptools compile --strip-extras --allow-unsafe --extra dev --generate-hashes --pip-args="--only-binary=:all:" --output-file requirements-dev.txt pyproject.toml
 ```
 
 Después se repiten instalación limpia, suite rápida, Ruff y baseline completa.
 Antes de publicar el lock se valida también su resolución completa para 3.10:
 
 ```powershell
-py -3.12 -m pip install --dry-run --ignore-installed --require-hashes --python-version 3.10 --only-binary=:all: -r requirements-dev.txt
+py -3.10 -m pip install --dry-run --ignore-installed --require-hashes --only-binary=:all: -r requirements-dev.txt
 ```
