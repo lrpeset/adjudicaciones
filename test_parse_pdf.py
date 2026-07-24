@@ -52,20 +52,10 @@ from adjudicacion import (
 # Helpers
 # ═══════════════════════════════════════════════════════════════════════════
 
-_pass = 0
-_fail = 0
-
-
 def assert_eq(label, actual, expected):
-    global _pass, _fail
-    if actual == expected:
-        _pass += 1
-        print(f"  [PASS] {label}")
-    else:
-        _fail += 1
-        print(f"  [FAIL] {label}")
-        print(f"         expected: {expected!r}")
-        print(f"         actual  : {actual!r}")
+    assert actual == expected, (
+        f"{label}: expected {expected!r}, got {actual!r}"
+    )
 
 
 def assert_true(label, condition):
@@ -85,7 +75,7 @@ def make_block(text, tipo="VACANTE", cuerpo="Secundaria",
 
 def write_routes(rows):
     tmp = tempfile.NamedTemporaryFile(
-        mode="w", suffix=".csv", delete=False, dir="/tmp",
+        mode="w", suffix=".csv", delete=False, encoding="utf-8",
     )
     pd.DataFrame(rows).to_csv(tmp, index=False)
     tmp.close()
@@ -290,7 +280,8 @@ def test_phase3():
     os.unlink(csv_path)
 
     # --- 3d. Non-existent CSV → graceful fallback -----------------------
-    merged_d = merge_with_routes(positions, "/tmp/nonexistent_abc.csv", "València")
+    missing_csv = os.path.join(tempfile.gettempdir(), "nonexistent_abc.csv")
+    merged_d = merge_with_routes(positions, missing_csv, "València")
     assert_eq("3d-bad file null", merged_d["Km"].isna().all(), True)
 
     # --- 3e. Duplicate destinations → shortest kept ---------------------
@@ -362,7 +353,7 @@ def test_phase4():
               sorted_nan["Municipio"].tolist(), ["B", "A", "C"])
 
     # --- 4d. Export with utf-8-sig BOM -----------------------------------
-    tmp_out = "/tmp/test_bom.csv"
+    tmp_out = os.path.join(tempfile.gettempdir(), "test_bom.csv")
     df_out = pd.DataFrame({"col": ["áéíóú", "ñ"]})
     df_out.to_csv(tmp_out, index=False, encoding="utf-8-sig")
     with open(tmp_out, "rb") as f:
@@ -393,7 +384,8 @@ def test_phase4():
     os.unlink(csv_path)
 
     # --- 4g. Fallback with non-existent CSV → empty DataFrame ------------
-    fb_bad = fallback_proximidad("/tmp/nonexistent_xyz.csv", "València")
+    missing_csv = os.path.join(tempfile.gettempdir(), "nonexistent_xyz.csv")
+    fb_bad = fallback_proximidad(missing_csv, "València")
     assert_eq("4g-fallback bad csv", len(fb_bad), 0)
 
     # --- 4h. build_vacantes end-to-end with mock parse ------------------
@@ -679,21 +671,3 @@ def test_phase6():
                 RE_ROW.match("3 VACANTEALBAL - 46000274 - CEIP TEST NO") is not None)
     assert_true("6f-RE_ROW matches with-lloc",
                 RE_ROW.match("3 VACANTEALBAL - 46000274 - CEIP TEST 915363 NO") is not None)
-
-
-# ═══════════════════════════════════════════════════════════════════════════
-# Main
-# ═══════════════════════════════════════════════════════════════════════════
-
-if __name__ == "__main__":
-    test_phase1()
-    test_phase2()
-    test_phase3()
-    test_phase4()
-    test_phase5()
-    test_phase6()
-
-    print(f"\n{'═' * 50}")
-    print(f"  RESULTS: {_pass} passed, {_fail} failed")
-    print(f"{'═' * 50}")
-    sys.exit(1 if _fail else 0)

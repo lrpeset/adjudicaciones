@@ -333,6 +333,20 @@ class TestGenerarBloques:
         assert len(result["resumen_por_subareas"]) == 1
         assert result["resumen_por_subareas"][0]["total_plazas"] == 1
 
+    @pytest.mark.xfail(
+        strict=True,
+        reason="Defecto conocido: generar_bloques no invoca validate_block_sorting",
+    )
+    @patch("bloques.urllib.request.urlopen")
+    def test_full_pipeline_invokes_block_quality_gate(self, mock_urlopen):
+        mock_urlopen.return_value = self._mock_response(_osrm_ok_response(1))
+        df = pd.DataFrame([_make_row()])
+
+        with patch("bloques.validate_block_sorting") as validator:
+            generar_bloques(df, "Valencia", MUNICPIOS_CV)
+
+        validator.assert_called_once()
+
     def test_unknown_origin_raises(self):
         df = pd.DataFrame([_make_row()])
         with pytest.raises(ValueError, match="no encontrado"):
