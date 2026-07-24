@@ -9,6 +9,8 @@ correcciones posteriores sean explícitas y revisables.
 - Mínima soportada: Python 3.10.
 - Recomendada: Python 3.12.
 - El lock se resuelve para Python 3.10 y se valida en CI con 3.10 y 3.12.
+- `pandas`, `numpy` y `rpds-py` tienen límites superiores explícitos porque sus
+  versiones más recientes ya no son compatibles con Python 3.10.
 
 ## Instalación
 
@@ -116,3 +118,8 @@ py -3.12 -m piptools compile --strip-extras --allow-unsafe --extra dev --generat
 ```
 
 Después se repiten instalación limpia, suite rápida, Ruff y baseline completa.
+Antes de publicar el lock se valida también su resolución completa para 3.10:
+
+```powershell
+py -3.12 -m pip install --dry-run --ignore-installed --require-hashes --python-version 3.10 --only-binary=:all: -r requirements-dev.txt
+```
