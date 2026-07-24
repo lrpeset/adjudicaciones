@@ -5,9 +5,14 @@ A Streamlit-based system that processes teacher adjudication PDFs from the Conse
 ## Quick Start
 
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+python -m venv .venv
+python -m pip install --require-hashes -r requirements.txt
+python -m streamlit run app.py
 ```
+
+Python 3.10 es la versión mínima y Python 3.12 la recomendada. Para desarrollo,
+pruebas reproducibles y la baseline del PDF, consulta
+[`docs/baseline.md`](docs/baseline.md).
 
 ## Project Overview
 

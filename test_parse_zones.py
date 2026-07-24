@@ -38,20 +38,10 @@ from parse_zones import (
 # Helpers
 # ═══════════════════════════════════════════════════════════════════════════
 
-_pass = 0
-_fail = 0
-
-
 def assert_eq(label, actual, expected):
-    global _pass, _fail
-    if actual == expected:
-        _pass += 1
-        print(f"  [PASS] {label}")
-    else:
-        _fail += 1
-        print(f"  [FAIL] {label}")
-        print(f"         expected: {expected!r}")
-        print(f"         actual  : {actual!r}")
+    assert actual == expected, (
+        f"{label}: expected {expected!r}, got {actual!r}"
+    )
 
 
 def assert_true(label, condition):
@@ -135,7 +125,7 @@ def _make_pdf(text_lines: list[str]) -> str:
     pdf_bytes = b"".join(parts) + xref
 
     tmp = tempfile.NamedTemporaryFile(
-        mode="wb", suffix=".pdf", delete=False, dir="/tmp",
+        mode="wb", suffix=".pdf", delete=False,
     )
     tmp.write(pdf_bytes)
     tmp.close()
@@ -493,7 +483,7 @@ def test_phase5():
     ]
 
     pdf_path = _make_pdf(test_lines)
-    json_path = "/tmp/test_zonas_output.json"
+    json_path = os.path.join(tempfile.gettempdir(), "test_zonas_output.json")
 
     try:
         municipalities = parse_zones(pdf_path, json_path)
@@ -600,7 +590,7 @@ def test_phase6():
         ]
     }
 
-    zonas_path = "/tmp/test_zonas_merge.json"
+    zonas_path = os.path.join(tempfile.gettempdir(), "test_zonas_merge.json")
     with open(zonas_path, "w", encoding="utf-8") as f:
         json.dump(zonas_data, f, ensure_ascii=False, indent=2)
 
@@ -656,7 +646,6 @@ def test_phase6():
         if os.path.exists(zonas_path):
             os.unlink(zonas_path)
 
-
 # ═══════════════════════════════════════════════════════════════════════════
 # PHASE 7 — All Three Provinces Coverage
 # ═══════════════════════════════════════════════════════════════════════════
@@ -693,7 +682,7 @@ def test_phase7():
     ]
 
     pdf_path = _make_pdf(test_lines)
-    json_path = "/tmp/test_zonas_coverage.json"
+    json_path = os.path.join(tempfile.gettempdir(), "test_zonas_coverage.json")
 
     try:
         municipalities = parse_zones(pdf_path, json_path)
@@ -806,7 +795,7 @@ def test_phase8():
 
     # --- 8e. get_zone_by_municipio with empty JSON -----------------------
     zonas_empty = {"municipios": []}
-    zonas_path = "/tmp/test_zonas_empty.json"
+    zonas_path = os.path.join(tempfile.gettempdir(), "test_zonas_empty.json")
     with open(zonas_path, "w") as f:
         json.dump(zonas_empty, f)
 
@@ -818,7 +807,7 @@ def test_phase8():
         os.unlink(zonas_path)
 
     # --- 8f. get_zone_by_municipio with missing columns ------------------
-    zonas_path = "/tmp/test_zonas_missing.json"
+    zonas_path = os.path.join(tempfile.gettempdir(), "test_zonas_missing.json")
     with open(zonas_path, "w") as f:
         json.dump({"municipios": []}, f)
 
@@ -951,7 +940,7 @@ def test_phase11():
         ]
     }
 
-    zonas_path = "/tmp/test_zonas_nombre.json"
+    zonas_path = os.path.join(tempfile.gettempdir(), "test_zonas_nombre.json")
     with open(zonas_path, "w", encoding="utf-8") as f:
         json.dump(zonas_data, f, ensure_ascii=False, indent=2)
 
@@ -985,26 +974,3 @@ def test_phase11():
     finally:
         if os.path.exists(zonas_path):
             os.unlink(zonas_path)
-
-
-# ═══════════════════════════════════════════════════════════════════════════
-# Main
-# ═══════════════════════════════════════════════════════════════════════════
-
-if __name__ == "__main__":
-    test_phase1()
-    test_phase2()
-    test_phase3()
-    test_phase4()
-    test_phase5()
-    test_phase6()
-    test_phase7()
-    test_phase8()
-    test_phase9()
-    test_phase10()
-    test_phase11()
-
-    print(f"\n{'═' * 50}")
-    print(f"  RESULTS: {_pass} passed, {_fail} failed")
-    print(f"{'═' * 50}")
-    sys.exit(1 if _fail else 0)
