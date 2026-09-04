@@ -34,6 +34,8 @@ from parse_pdf import (
 )
 from adjudicacion import (
     RE_ROW,
+    SIN_OBSERVACIONES,
+    SIN_REQUISITO,
     filter_by_especialidad,
     filter_by_iti,
     filter_by_observaciones,
@@ -553,9 +555,30 @@ def test_phase5():
     f = filter_by_req_lingüístic(df, "ING-B2")
     assert_eq("5i-req ling ING-B2", len(f), 2)
 
+    # --- 5i2. filter_by_req_lingüístic: SIN_REQUISITO ---------------------
+    f = filter_by_req_lingüístic(df, SIN_REQUISITO)
+    assert_eq("5i2-req ling sin requisito", len(f), 6)
+    assert_true(
+        "5i2-sin requisito solo vacíos",
+        f["Req_Lingüístic"].apply(
+            lambda v: (
+                v is None
+                or (isinstance(v, float) and pd.isna(v))
+                or (isinstance(v, str) and v.strip() == "")
+            )
+        ).all(),
+    )
+
     # --- 5j. filter_by_observaciones: Centre singular --------------------
     f = filter_by_observaciones(df, "Centre singular")
     assert_eq("5j-obs centre singular", len(f), 2)
+
+    # --- 5j2. filter_by_observaciones: SIN_OBSERVACIONES ------------------
+    f = filter_by_observaciones(df, SIN_OBSERVACIONES)
+    assert_true(
+        "5j2-sin observaciones vacíos",
+        f["Obs_Tags"].apply(lambda x: len(x) == 0).all(),
+    )
 
     # --- 5k. filter_by_observaciones: TVA --------------------------------
     f = filter_by_observaciones(df, "TVA")

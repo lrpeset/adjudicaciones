@@ -10,9 +10,8 @@ python -m pip install --require-hashes -r requirements.txt
 python -m streamlit run app.py
 ```
 
-Python 3.10 es la versión mínima y Python 3.12 la recomendada. Para desarrollo,
-pruebas reproducibles y la baseline del PDF, consulta
-[`docs/baseline.md`](docs/baseline.md).
+Python 3.10 es la versión mínima y Python 3.12 la recomendada. Para desarrollo
+y pruebas reproducibles, consulta [`docs/baseline.md`](docs/baseline.md).
 
 ## Project Overview
 
@@ -42,7 +41,7 @@ This file was used in earlier versions for center-specific code mappings. It is 
 
 The application executes in four controlled phases:
 
-1. **Phase 1 — Lazy Loading**: Without a PDF (uploaded or default), nothing runs. The app stops immediately with a friendly message.
+1. **Phase 1 — Lazy Loading**: Without an uploaded PDF, nothing runs. The app stops immediately with a friendly message.
 2. **Phase 2 — Cached Parsing + Filter Extraction**: The PDF is parsed once. Filter options are extracted once and cached.
 3. **Phase 3 — Master Button + OSRM Calculation**: Distance/time calculation only runs on explicit user click, not on filter changes.
 4. **Phase 4 — Session State Persistence**: Results persist across visual option changes (view mode, sort order) without recalculation.

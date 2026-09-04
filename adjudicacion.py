@@ -13,7 +13,9 @@ Observaciones, and optional linguistic requirements.
 Usage:
     from adjudicacion import parse_adjudicacion, filter_positions
 
-    df = parse_adjudicacion("lis_vac_adj_ini_26_27.pdf")
+    with open("adjudicaciones.pdf", "rb") as f:
+        pdf_bytes = f.read()
+    df = parse_adjudicacion(pdf_bytes)
     result = filter_positions(df, especialidad="120", tipo="VACANTE")
 """
 
@@ -27,6 +29,28 @@ from pypdf import PdfReader
 
 # Tipo unificado: ruta de archivo, bytes crudos o stream en memoria
 PdfSource = Union[str, bytes, io.BytesIO]
+
+# ---------------------------------------------------------------------------
+# Sentinelas de interfaz para los filtros
+# ---------------------------------------------------------------------------
+# Valores reservados que NUNCA colisionan con datos reales del PDF.
+# Se usan en los widgets de Streamlit para distinguir claramente entre
+# "no filtrar por esta columna" y "filtrar los registros que NO tienen valor".
+FILTRO_TODOS = "Todos"
+FILTRO_TODAS = "Todas"
+SIN_REQUISITO = "Sin requisito"
+SIN_OBSERVACIONES = "Sin observaciones"
+
+
+def _is_blank(value) -> bool:
+    """True si el valor es nulo, NaN o cadena que solo contiene espacios."""
+    if value is None:
+        return True
+    if isinstance(value, float) and pd.isna(value):
+        return True
+    if isinstance(value, str):
+        return value.strip() == ""
+    return False
 
 
 # ---------------------------------------------------------------------------
@@ -362,8 +386,16 @@ def filter_by_req_lingüístic(df: pd.DataFrame, req: str) -> pd.DataFrame:
     """
     Filter by linguistic requirement (e.g., "ING-B2", "FRN-A2").
 
-    Uses partial matching so "ING" matches any English requirement.
+    If `req` equals SIN_REQUISITO, returns only the rows that have NO
+    linguistic requirement (null, NaN, empty or whitespace-only strings).
+
+    Otherwise uses partial matching so "ING" matches any English
+    requirement.
     """
+    if req == SIN_REQUISITO:
+        mask = df["Req_Lingüístic"].apply(_is_blank)
+        return df[mask].copy()
+
     req_upper = req.upper().strip()
     mask = df["Req_Lingüístic"].str.upper().str.contains(req_upper, na=False)
     return df[mask].copy()
@@ -373,7 +405,11 @@ def filter_by_observaciones(df: pd.DataFrame, keyword: str) -> pd.DataFrame:
     """
     Filter by observation keyword.
 
-    Matches against both the raw Observaciones text and the Obs_Tags field.
+    If `keyword` equals SIN_OBSERVACIONES, returns only the rows that have
+    NO observation at all (empty Obs_Tags and blank Observaciones text).
+
+    Otherwise matches against both the raw Observaciones text and the
+    Obs_Tags field.
 
     Obs_Tags may be a raw list or a comma-separated string (after cache
     sanitisation). Both forms are handled transparently.
@@ -387,6 +423,18 @@ def filter_by_observaciones(df: pd.DataFrame, keyword: str) -> pd.DataFrame:
         - "CENTRE PENITENCIARI"
         - "Infantil 0 a 3"
     """
+    if keyword == SIN_OBSERVACIONES:
+        def _has_any_obs(tags):
+            if isinstance(tags, list):
+                return len(tags) > 0
+            if isinstance(tags, str):
+                return tags.strip() != ""
+            return False
+
+        mask_empty_tags = ~df["Obs_Tags"].apply(_has_any_obs)
+        text_blank = df["Observaciones"].apply(_is_blank)
+        return df[mask_empty_tags & text_blank].copy()
+
     keyword_upper = keyword.upper().strip()
 
     # Check Obs_Tags first (faster, pre-tagged)

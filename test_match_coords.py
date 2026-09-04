@@ -34,6 +34,7 @@ from match_coords import (
     load_municipios_cv,
     validate_block_sorting,
     validate_critical_subareas,
+    validate_no_sin_subarea,
 )
 
 
@@ -384,10 +385,6 @@ class TestValidateCriticalSubareas:
             ("Cofrentes", "4644", "4635"),
         ],
     )
-    @pytest.mark.xfail(
-        strict=True,
-        reason="Defecto conocido: comparación asimétrica de casing en el quality gate",
-    )
     def test_rejects_wrong_critical_subareas(
         self, municipio, wrong_subarea, expected_subarea
     ):
@@ -414,6 +411,67 @@ class TestValidateCriticalSubareas:
         ])
         validate_critical_subareas(df)
 
+    @pytest.mark.parametrize(
+        "municipio",
+        [
+            "ELX - ALTABIX",
+            "ELX - VALLVERDA",
+            "ELX",
+            "Elx - Altet",
+        ],
+    )
+    def test_self_heals_empty_elx_pedanias_to_0351(self, municipio):
+        """Empty Zona_Subarea for ELX pedanías must be repaired to 0351."""
+        df = pd.DataFrame([
+            {"Municipio": municipio, "Zona_Subarea": "", "Centro_Nombre": "CEIP Test"},
+        ])
+        validate_critical_subareas(df)
+        assert df.iloc[0]["Zona_Subarea"] == "0351"
+
+    def test_albal_does_not_absorb_albalat_rows(self):
+        """Regression: 'ALBAL' must NOT match 'ALBALAT DE LA RIBERA' nor
+        'ALBALAT DELS TARONGERS' via substring in the quality gate.
+        Each municipality with its correct subarea must pass cleanly."""
+        df = pd.DataFrame([
+            {"Municipio": "ALBAL", "Zona_Subarea": "4644",
+             "Centro_Nombre": "CEIP TIRANT LO BLANC"},
+            {"Municipio": "ALBALAT DE LA RIBERA", "Zona_Subarea": "4652",
+             "Centro_Nombre": "IES SUCRO"},
+            {"Municipio": "ALBALAT DELS TARONGERS", "Zona_Subarea": "4614",
+             "Centro_Nombre": "CEIP ALBALAT"},
+        ])
+        validate_critical_subareas(df)
+
+    def test_albal_only_rejects_its_own_wrong_subarea(self):
+        """A wrong subarea on the ALBAL row must raise, but correctly-subarea'd
+        ALBALAT rows must NOT be flagged as ALBAL errors."""
+        df = pd.DataFrame([
+            {"Municipio": "ALBAL", "Zona_Subarea": "9999",
+             "Centro_Nombre": "CEIP TIRANT LO BLANC"},
+            {"Municipio": "ALBALAT DE LA RIBERA", "Zona_Subarea": "4652",
+             "Centro_Nombre": "IES SUCRO"},
+        ])
+        with pytest.raises(AssertionError, match="4644"):
+            validate_critical_subareas(df)
+
+    def test_inject_disambiguates_albal_vs_albalat(self):
+        """Integration: with real zonas.json, inject_coordinates must resolve
+        ALBAL -> 4644, ALBALAT DE LA RIBERA -> 4652 and
+        ALBALAT DELS TARONGERS -> 4614 without cross-contamination."""
+        zonas_path = os.path.join(os.path.dirname(__file__), "zonas.json")
+        df = pd.DataFrame([
+            _make_adj_row(municipio="ALBAL", codigo="46007400",
+                          nombre="CEIP TIRANT LO BLANC"),
+            _make_adj_row(municipio="ALBALAT DE LA RIBERA", codigo="46008400",
+                          nombre="IES SUCRO"),
+            _make_adj_row(municipio="ALBALAT DELS TARONGERS", codigo="46010400",
+                          nombre="CEIP ALBALAT"),
+        ])
+        result = inject_coordinates(df, MUNICPIOS_CV, zonas_path)
+        assert result.iloc[0]["Zona_Subarea"] == "4644"
+        assert result.iloc[1]["Zona_Subarea"] == "4652"
+        assert result.iloc[2]["Zona_Subarea"] == "4614"
+
 
 class TestValidateBlockSorting:
     def test_accepts_sorted_blocks(self):
@@ -434,6 +492,62 @@ class TestValidateBlockSorting:
         }
         with pytest.raises(AssertionError, match="not sorted"):
             validate_block_sorting(bloques, sort_by="distancia")
+
+    def test_accepts_block_with_none_metrics_at_bottom(self):
+        """Regression: a block with None metrics (no routes) must not raise
+        TypeError and, if placed at the bottom, must pass the gate."""
+        bloques = {
+            "resumen_por_subareas": [
+                {"distancia_minima_km": 1.0, "tiempo_minimo_minutos": 2.0},
+                {"distancia_minima_km": 3.0, "tiempo_minimo_minutos": 4.0},
+                {"distancia_minima_km": None, "tiempo_minimo_minutos": None},
+            ]
+        }
+        validate_block_sorting(bloques, sort_by="distancia")
+
+    def test_none_metrics_not_at_bottom_rejected(self):
+        """A None-metric block placed above valid ones must be flagged."""
+        bloques = {
+            "resumen_por_subareas": [
+                {"distancia_minima_km": None, "tiempo_minimo_minutos": None},
+                {"distancia_minima_km": 1.0, "tiempo_minimo_minutos": 2.0},
+            ]
+        }
+        with pytest.raises(AssertionError, match="not sorted"):
+            validate_block_sorting(bloques, sort_by="distancia")
+
+    def test_accepts_block_with_single_none_value(self):
+        """Only the chosen sort metric may be None; other subareas resolve."""
+        bloques = {
+            "resumen_por_subareas": [
+                {"distancia_minima_km": 5.0, "tiempo_minimo_minutos": 6.0},
+                {"distancia_minima_km": None, "tiempo_minimo_minutos": 7.0},
+            ]
+        }
+        validate_block_sorting(bloques, sort_by="distancia")
+
+
+class TestValidateNoSinSubarea:
+    def test_accepts_all_resolved_blocks(self):
+        bloques = {
+            "resumen_por_subareas": [
+                {"subarea_codigo": "4651", "total_plazas": 3},
+                {"subarea_codigo": "4642", "total_plazas": 1},
+            ]
+        }
+        validate_no_sin_subarea(bloques)
+
+    def test_rejects_sin_subarea_block(self):
+        bloques = {
+            "resumen_por_subareas": [
+                {"subarea_codigo": "SIN_SUBAREA", "total_plazas": 5},
+            ]
+        }
+        with pytest.raises(AssertionError, match="SIN_SUBAREA"):
+            validate_no_sin_subarea(bloques)
+
+    def test_empty_blocks_pass(self):
+        validate_no_sin_subarea({"resumen_por_subareas": []})
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -490,6 +604,39 @@ class TestRealDataIntegration:
         zonas_path = os.path.join(os.path.dirname(__file__), "zonas.json")
         result = inject_coordinates(df, MUNICPIOS_CV, zonas_path)
         assert result.iloc[0]["Zona_Subarea"] == "0351"
+
+    @pytest.mark.parametrize(
+        ("municipio", "subarea"),
+        [
+            ("ALAQUÀS", "4642"),
+            ("ALBORAIA", "4645"),
+            ("ALBUIXECH", "4645"),
+            ("FOIOS", "4645"),
+            ("EL PUIG DE SANTA MARIA", "4645"),
+        ],
+    )
+    def test_horta_municipalities_resolve_from_zonas(self, municipio, subarea):
+        """The Horta municipalities added to zonas.json must resolve directly."""
+        df = pd.DataFrame([_make_adj_row(municipio=municipio)])
+        zonas_path = os.path.join(os.path.dirname(__file__), "zonas.json")
+        result = inject_coordinates(df, MUNICPIOS_CV, zonas_path)
+        assert result.iloc[0]["Zona_Subarea"] == subarea
+
+    @pytest.mark.parametrize(
+        ("municipio", "subarea"),
+        [
+            ("LES ALQUERIES", "1241"),
+            ("LLUCENA", "1222"),
+            ("CASTELLÓ", "4654"),
+            ("EL POBLE", "0314"),
+        ],
+    )
+    def test_valencian_name_variants_resolve_via_shield(self, municipio, subarea):
+        """Valencian PDF names that differ from zonas.json resolve via shield."""
+        df = pd.DataFrame([_make_adj_row(municipio=municipio)])
+        zonas_path = os.path.join(os.path.dirname(__file__), "zonas.json")
+        result = inject_coordinates(df, MUNICPIOS_CV, zonas_path)
+        assert result.iloc[0]["Zona_Subarea"] == subarea
 
 
 # ═══════════════════════════════════════════════════════════════════════════

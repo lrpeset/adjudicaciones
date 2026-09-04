@@ -25,9 +25,6 @@ dev = [
 addopts = "-ra --strict-markers --disable-socket"
 testpaths = ["."]
 python_files = ["test_*.py"]
-markers = [
-    "full_pdf: baseline lenta contra el PDF oficial completo",
-]
 
 [tool.coverage.run]
 branch = true

@@ -24,6 +24,7 @@ from match_coords import (
     inject_coordinates,
     validate_critical_subareas,
     validate_block_sorting,
+    validate_no_sin_subarea,
 )
 
 
@@ -213,10 +214,14 @@ def agrupar_por_subarea(
 
             if pd.isna(lat) or pd.isna(lon):
                 plazas_data.append({
+                    "index": row.get("Índex", ""),
+                    "subarea_codigo": grupo["subarea_codigo"],
+                    "subarea_nombre": grupo["subarea_nombre"],
                     "centro": row.get("Centro_Nombre", ""),
                     "municipio": row.get("Municipio", ""),
                     "especialidad": row.get("Especialidad", ""),
                     "tipo": row.get("Tipo", ""),
+                    "requisito_idioma": row.get("Req_Lingüístic", ""),
                     "tiempo_trayecto_minutos": None,
                     "distancia_km": None,
                 })
@@ -235,10 +240,14 @@ def agrupar_por_subarea(
                 distancia = None
 
             plazas_data.append({
+                "index": row.get("Índex", ""),
+                "subarea_codigo": grupo["subarea_codigo"],
+                "subarea_nombre": grupo["subarea_nombre"],
                 "centro": row.get("Centro_Nombre", ""),
                 "municipio": row.get("Municipio", ""),
                 "especialidad": row.get("Especialidad", ""),
                 "tipo": row.get("Tipo", ""),
+                "requisito_idioma": row.get("Req_Lingüístic", ""),
                 "tiempo_trayecto_minutos": tiempo,
                 "distancia_km": distancia,
             })
@@ -254,9 +263,9 @@ def agrupar_por_subarea(
         plazas_data.sort(key=_plaza_sort_key)
 
         # --- Block metrics (minimums for Block Pass, plus average) ---
-        # Use inf for unresolved blocks so they sort to the bottom
-        distancia_minima = round(min(distancias), 2) if distancias else float("inf")
-        tiempo_minimo = round(min(tiempos), 1) if tiempos else float("inf")
+        # None for unresolved blocks; _block_sort_key converts to inf for sorting.
+        distancia_minima = round(min(distancias), 2) if distancias else None
+        tiempo_minimo = round(min(tiempos), 1) if tiempos else None
         tiempo_medio = (
             round(sum(tiempos) / len(tiempos), 1) if tiempos else 0.0
         )
@@ -394,11 +403,9 @@ def generar_bloques(
     bloques = agrupar_por_subarea(result, rutas, sort_by=sort_by)
 
     # 7. Quality gate assertions (Phase 4)
-    # NOTE: validate_critical_subareas is called from app.py after
-    # subareas are fully assigned. validate_block_sorting can be called
-    # by the caller on the returned dict.
-
     output = {"resumen_por_subareas": bloques}
+    validate_block_sorting(output, sort_by=sort_by)
+    validate_no_sin_subarea(output)
     return output
 
 
@@ -423,10 +430,13 @@ def resumen_texto(bloques: dict) -> str:
     total_plazas = 0
     for b in subareas:
         t_min = b.get("tiempo_minimo_minutos", b["tiempo_medio_minutos"])
+        d_min = b["distancia_minima_km"]
+        t_str = f"{t_min:>10.1f} min " if t_min is not None else f"{'N/A':>10} min "
+        d_str = f"{d_min:>10.2f} km " if d_min is not None else f"{'N/A':>10} km "
         lines.append(
             f"{b['subarea_codigo']:<8} "
-            f"{t_min:>10.1f} min "
-            f"{b['distancia_minima_km']:>10.2f} km "
+            f"{t_str}"
+            f"{d_str}"
             f"{b['total_plazas']:>6}"
         )
         total_plazas += b["total_plazas"]

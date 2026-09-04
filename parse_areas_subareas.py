@@ -2,22 +2,34 @@
 """
 parse_areas_subareas.py
 
-Parsea el PDF 2013_6484_adj_mestres.pdf (Annex I de la Generalitat Valenciana)
-y genera areas_subareas.json indexado por código de centro (8 dígitos).
+Parsea el PDF "Adjudicaciones de centros" de la Generalitat Valenciana
+(originalmente 2013_6484_adj_mestres.pdf, Annex I) y genera
+areas_subareas.json indexado por código de centro (8 dígitos).
 
 Jerarquía del documento:
   Área (2 dígitos provincia) > Subárea (4 dígitos) > Localidad (9 dígitos) > Centro (8 dígitos)
+
+Uso (CLI):
+    python parse_areas_subareas.py --pdf /ruta/al/adj.pdf [--output areas_subareas.json]
+
+La ruta del PDF puede pasarse por:
+  1. Argumento CLI:   --pdf <ruta>
+  2. Variable de env: ADJUDICACIONES_PDF=<ruta>
+  3. Default:          busca "2013_6484_adj_mestres.pdf" junto al script
 """
 
+import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
 from pypdf import PdfReader
 
-PDF_PATH = Path(__file__).parent / "2013_6484_adj_mestres.pdf"
+DEFAULT_PDF_PATH = Path(__file__).parent / "2013_6484_adj_mestres.pdf"
 OUTPUT_PATH = Path(__file__).parent / "areas_subareas.json"
+ENV_PDF_VAR = "ADJUDICACIONES_PDF"
 
 # Patrones de extracción
 RE_SUBAREA = re.compile(r"SUBÀREA\s*/\s*SUBÁREA\s*:\s*(\d{4})", re.IGNORECASE)
@@ -145,20 +157,46 @@ def parsear_pdf(pdf_path: Path) -> dict:
     return resultado
 
 
-def main():
-    if not PDF_PATH.is_file():
-        print(f"Error: PDF no encontrado: {PDF_PATH}", file=sys.stderr)
-        sys.exit(1)
+def _resolver_pdf_path(args_pdf: str | None) -> Path:
+    """
+    Resuelve la ruta del PDF a usar según precedencia:
+      1. Argumento CLI --pdf
+      2. Variable de entorno ADJUDICACIONES_PDF
+      3. Default junto al script (2013_6484_adj_mestres.pdf)
+    Lanza SystemExit(2) si el archivo no existe.
+    """
+    if args_pdf:
+        pdf_path = Path(args_pdf)
+    else:
+        env_pdf = os.environ.get(ENV_PDF_VAR)
+        pdf_path = Path(env_pdf) if env_pdf else DEFAULT_PDF_PATH
 
-    print(f"Leyendo {PDF_PATH.name}...")
-    datos = parsear_pdf(PDF_PATH)
+    if not pdf_path.is_file():
+        raise SystemExit(
+            f"Error: PDF no encontrado: {pdf_path}\n"
+            f"  * Indícalo con --pdf <ruta>\n"
+            f"  * O define la variable de entorno {ENV_PDF_VAR}=<ruta>\n"
+            f"  * O coloca el archivo esperado en {DEFAULT_PDF_PATH}"
+        )
+
+    return pdf_path
+
+
+def run(pdf_path: Path, output_path: Path) -> int:
+    """Ejecuta el parseo y guarda el JSON. Devuelve código de salida."""
+    if not pdf_path.is_file():
+        print(f"Error: PDF no encontrado: {pdf_path}", file=sys.stderr)
+        return 1
+
+    print(f"Leyendo {pdf_path.name}...")
+    datos = parsear_pdf(pdf_path)
 
     if not datos:
         print("Error: no se extrajeron centros del PDF.", file=sys.stderr)
-        sys.exit(1)
+        return 1
 
     # Guardar JSON
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(datos, f, ensure_ascii=False, indent=2)
 
     # Estadísticas
@@ -170,8 +208,37 @@ def main():
     print(f"Centros extraídos: {len(datos)}")
     print(f"Áreas: {len(areas)} | Subáreas: {len(subareas)} | Localidades: {len(localidades)}")
     print(f"Con programa lingüístico: {con_programa}/{len(datos)}")
-    print(f"Guardado en: {OUTPUT_PATH}")
+    print(f"Guardado en: {output_path}")
+    return 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    """CLI principal con argparse."""
+    parser = argparse.ArgumentParser(
+        description="Parsea el PDF de adjudicaciones de centros de la Generalitat "
+                    "Valenciana y genera areas_subareas.json.",
+    )
+    parser.add_argument(
+        "--pdf",
+        help=f"Ruta del PDF a procesar. Alternativa a la variable de entorno "
+             f"{ENV_PDF_VAR}. Por defecto busca {DEFAULT_PDF_PATH.name} junto al script.",
+    )
+    parser.add_argument(
+        "--output",
+        default=str(OUTPUT_PATH),
+        help=f"Ruta de salida del JSON (default: {OUTPUT_PATH})",
+    )
+
+    args = parser.parse_args(argv)
+
+    try:
+        pdf_path = _resolver_pdf_path(args.pdf)
+    except SystemExit as e:
+        print(str(e), file=sys.stderr)
+        return 2
+
+    return run(pdf_path, Path(args.output))
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

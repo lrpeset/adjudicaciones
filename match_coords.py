@@ -239,6 +239,14 @@ def inject_coordinates(
 
         # --- Hardcoded fallback shield ----------------------------------------
         if not subarea and norm_name:
+            # 1) Exact-match hints first (name equals the hint, no extra words).
+            for hint_norm, hint_sub in HARDCODED_SUBAREA_FALLBACKS_EXACT.items():
+                if hint_norm == norm_name:
+                    subarea = hint_sub
+                    stats["fuzzy"] += 1
+                    break
+        if not subarea and norm_name:
+            # 2) Substring hints for safe, unambiguous names.
             for hint_norm, hint_sub in HARDCODED_SUBAREA_FALLBACKS.items():
                 if hint_norm in norm_name:
                     subarea = hint_sub
@@ -306,6 +314,7 @@ def inject_coordinates(
         "albal": "4644",
         "aldaia": "4642",
         "cofrentes": "4635",
+        "elx": "0351",
     }
     for idx, row in result.iterrows():
         current = row.get("Zona_Subarea", "")
@@ -313,7 +322,7 @@ def inject_coordinates(
             continue
         muni_norm = _normalize_name(row.get("Municipio", ""))
         for keyword, code in MUNI_SUBAREA_OVERRIDE.items():
-            if keyword in muni_norm:
+            if muni_norm == keyword:
                 result.at[idx, "Zona_Subarea"] = str(code).strip()
                 break
 
@@ -360,6 +369,7 @@ SELF_HEAL_MAP: dict[str, str] = {
     "albal": "4644",
     "aldaia": "4642",
     "cofrentes": "4635",
+    "elx": "0351",
 }
 
 # Hardcoded fallback shield — if JSON resolution fails for these known
@@ -367,6 +377,21 @@ SELF_HEAL_MAP: dict[str, str] = {
 HARDCODED_SUBAREA_FALLBACKS: dict[str, str] = {
     "almoradi": "0361",
     "albal": "4644",
+    # Valencian PDF names that differ from the canonical (Spanish) keys in
+    # zonas.json.  These municipalities already exist in zonas.json under
+    # their Spanish denomination; the fallback shields the region-specific
+    # naming used by the Conselleria PDFs.
+    "les alqueries": "1241",          # ALQUERÍAS DEL NIÑO PERDIDO
+    "llucena": "1222",                # LUCENA DEL CID
+    "el poble": "0314",
+}
+
+# Hints whose normalized form is a substring of OTHER municipalities too
+# (e.g. "castello" is a substring of "castello de la plana", "castello de
+# rugat" and "villanueva de castellon").  These must only match by exact
+# coincidence to avoid false positives — the PDF emits "CASTELLÓ" bare.
+HARDCODED_SUBAREA_FALLBACKS_EXACT: dict[str, str] = {
+    "castello": "4654",               # CASTELLÓ / VILLANUEVA DE CASTELLÓN
 }
 
 # Suffix-qualified municipality names that must resolve to the same base subarea
@@ -410,7 +435,7 @@ def validate_critical_subareas(df) -> None:
 
     for muni_name, expected_subarea in CRITICAL_SUBAREA_ASSERTIONS.items():
         norm_muni = _normalize_name(muni_name)
-        rows = df[df["Municipio"].apply(lambda x: norm_muni in _normalize_name(str(x)).upper() if pd.notna(x) else False)]
+        rows = df[df["Municipio"].apply(lambda x: _normalize_name(str(x)) == norm_muni if pd.notna(x) else False)]
         if rows.empty:
             continue
 
@@ -510,12 +535,51 @@ def validate_block_sorting(bloques: dict, sort_by: str = "distancia") -> None:
     else:
         values = [b["distancia_minima_km"] for b in blocks]
 
-    if values != sorted(values):
+    # None (unresolved routes) and NaN must sink to the bottom when comparing,
+    # mirroring the None->inf behavior of _block_sort_key in bloques.py.
+    # This avoids TypeError from sorted() comparing None against floats.
+    def _sort_value(v):
+        if v is None or v != v:  # NaN check
+            return float("inf")
+        return v
+
+    expected = sorted(values, key=_sort_value)
+
+    if values != expected:
         raise AssertionError(
             f"QUALITY GATE FAILED — Blocks not sorted ascending by {sort_by}.\n"
             f"Got:      {values}\n"
-            f"Expected: {sorted(values)}"
+            f"Expected: {expected}"
         )
     print(
         f"Block sorting PASSED: {len(blocks)} blocks strictly ascending by {sort_by}"
     )
+
+
+# ---------------------------------------------------------------------------
+# Phase 4 — Quality gate: no unresolved "SIN_SUBAREA" blocks
+# ---------------------------------------------------------------------------
+
+def validate_no_sin_subarea(bloques: dict) -> None:
+    """
+    Phase 4 quality gate: assert that no block is grouped under the
+    "SIN_SUBAREA" sentinel, i.e. every vacancy (or at least every block) has a
+    real subarea assignment.
+
+    Args:
+        bloques: Dict with key 'resumen_por_subareas' containing a list of
+                 block dicts.
+
+    Raises:
+        AssertionError if a "SIN_SUBAREA" block is present.
+    """
+    blocks = bloques.get("resumen_por_subareas", [])
+    for b in blocks:
+        codigo = str(b.get("subarea_codigo", ""))
+        if codigo.upper() == "SIN_SUBAREA":
+            n = b.get("total_plazas", 0)
+            raise AssertionError(
+                "QUALITY GATE FAILED — Found unresolved 'SIN_SUBAREA' block with "
+                f"{n} plazas. Every vacancy must resolve to a valid subarea."
+            )
+    print(f"No-SIN_SUBAREA quality gate PASSED: {len(blocks)} blocks all resolved")
