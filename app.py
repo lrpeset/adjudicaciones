@@ -1,9 +1,9 @@
 """
-AdjudicaCV — Ordenador de Adjudicaciones Docentes
+AdjudicaCV -- Ordenador de Adjudicaciones Docentes
 
 Sidebar-driven layout:
-  Sidebar — Origen, criterio, PDF upload, filtros (Paso 1-4)
-  Main    — Disclaimer + resultados con pestañas (Paso 5)
+  Sidebar -- Origen, criterio, PDF upload, filtros (Paso 1-4)
+  Main    -- Disclaimer + resultados con pestanas (Paso 5)
 
 Ejecutar:
     pip install -r requirements.txt
@@ -30,11 +30,17 @@ from adjudicacion import (
     SIN_REQUISITO,
     SIN_OBSERVACIONES,
 )
+from adjudicacion import (
+    RE_CUERPO,
+    RE_ESPECIALIDAD,
+    RE_COL_HEADER,
+    _extract_text_pages,
+)
 from bloques import generar_bloques
 from match_coords import inject_coordinates
 
 # ---------------------------------------------------------------------------
-# Configuración
+# Configuracion
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
 MUNICIPIOS_FILE = SCRIPT_DIR / "municipios_cv.json"
@@ -70,7 +76,7 @@ def load_municipios() -> list[dict]:
         with open(MUNICIPIOS_FILE, encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        st.error(f"No se encontró el archivo: {MUNICIPIOS_FILE}")
+        st.error(f"No se encontro el archivo: {MUNICIPIOS_FILE}")
         return []
     except json.JSONDecodeError as e:
         st.error(f"Error al leer municipios_cv.json: {e}")
@@ -161,16 +167,32 @@ def _make_fingerprint(
 
 
 # ---------------------------------------------------------------------------
-# Disclaimer
+# PDF format gatekeeper
 # ---------------------------------------------------------------------------
 
-def _render_disclaimer():
-    st.info(
-        "\U0001f4cc Las distancias y tiempos se calculan desde el centro del "
-        "**MUNICIPIO** de origen hasta el **MUNICIPIO** de destino. "
-        "Por ello, centros dentro del mismo municipio compartirán "
-        "el mismo tiempo/distancia."
-    )
+def _validate_pdf_format(pdf_bytes: bytes) -> bool:
+    """Check that the uploaded PDF matches the GVA official format.
+
+    Extracts text from the first two pages and looks for at least two
+    characteristic patterns of the Conselleria 'Puestos Ofertados' layout:
+    ``CUERPO/COS:``, ``ESPECIALIDAD/ESPECIALITAT:`` or the column header
+    ``LOCALIDAD / LOCALITAT``.
+    """
+    try:
+        pages = _extract_text_pages(pdf_bytes)
+        sample = "\n".join(pages[:2])
+    except Exception:
+        return False
+
+    hits = 0
+    if RE_CUERPO.search(sample):
+        hits += 1
+    if RE_ESPECIALIDAD.search(sample):
+        hits += 1
+    if RE_COL_HEADER.search(sample):
+        hits += 1
+
+    return hits >= 2
 
 
 # ---------------------------------------------------------------------------
@@ -184,17 +206,17 @@ def _render_welcome():
 Para comenzar:
 
 1. **Selecciona tu municipio de origen** en la barra lateral izquierda.
-2. **Elige el criterio de ordenación** (distancia en km o tiempo en coche).
+2. **Elige el criterio de ordenacion** (distancia en km o tiempo en coche).
 3. **Sube el PDF de adjudicaciones** oficial de la Conselleria.
 
-Una vez cargado, verás todas las plazas ordenadas por cercanía con
+Una vez cargado, veras todas las plazas ordenadas por cercania con
 distancias y tiempos de trayecto calculados.
 """
     )
 
 
 # ---------------------------------------------------------------------------
-# Sidebar — Configuration (Paso 1-4)
+# Sidebar -- Configuration (Paso 1-4)
 # ---------------------------------------------------------------------------
 
 def render_sidebar_config() -> bytes | None:
@@ -205,10 +227,6 @@ def render_sidebar_config() -> bytes | None:
     pdf_bytes = None
 
     with st.sidebar:
-        st.header("AdjudicaCV")
-        st.caption("Ordenador de Adjudicaciones Docentes")
-        st.divider()
-
         # --- Paso 1: Tu Origen ---
         st.subheader("Paso 1: Tu Origen")
         municipios = load_municipios()
@@ -231,10 +249,10 @@ def render_sidebar_config() -> bytes | None:
 
         st.divider()
 
-        # --- Paso 2: Criterio de Ordenación ---
-        st.subheader("Paso 2: Criterio de Ordenación")
+        # --- Paso 2: Criterio de Ordenacion ---
+        st.subheader("Paso 2: Criterio de Ordenacion")
         st.radio(
-            "¿Qué criterio prefieres para ordenar las plazas?",
+            "Que criterio prefieres para ordenar las plazas?",
             options=["distancia", "tiempo"],
             format_func=lambda x: (
                 "Distancia en km" if x == "distancia"
@@ -243,8 +261,10 @@ def render_sidebar_config() -> bytes | None:
             horizontal=True,
             key="sort_by",
             help=(
-                "Cambia entre km y tiempo para reordenar la lista "
-                "en tiempo real."
+                "Las distancias y tiempos de trayecto se calculan desde el "
+                "municipio de origen hasta el municipio del centro educativo "
+                "que oferta la plaza. Por tanto, estos calculos pueden diferir "
+                "ligeramente de la realidad."
             ),
         )
 
@@ -276,11 +296,14 @@ def render_sidebar_config() -> bytes | None:
 
         st.divider()
 
-        # --- Reiniciar ---
-        if st.button("\U0001f504 Reiniciar asistente", use_container_width=True):
-            for k in list(st.session_state.keys()):
-                del st.session_state[k]
-            st.rerun()
+        # --- Reiniciar (en expander discreto al final) ---
+        with st.expander("Ajustes avanzados"):
+            if st.button(
+                "Reiniciar asistente", use_container_width=True
+            ):
+                for k in list(st.session_state.keys()):
+                    del st.session_state[k]
+                st.rerun()
 
     return pdf_bytes
 
@@ -301,7 +324,7 @@ def _render_sidebar_filters(pdf_bytes: bytes) -> None:
         default=[],
         placeholder="Todas",
         key="filter_especialidad",
-        help="Filtra por código o nombre de especialidad docente.",
+        help="Filtra por codigo o nombre de especialidad docente.",
     )
 
     st.multiselect(
@@ -310,7 +333,7 @@ def _render_sidebar_filters(pdf_bytes: bytes) -> None:
         default=[],
         placeholder="Todos",
         key="filter_tipo",
-        help="VACANTE o SUSTITUCIÓN INDETERMINADA.",
+        help="VACANTE o SUSTITUCION INDETERMINADA.",
     )
 
     st.selectbox(
@@ -318,7 +341,7 @@ def _render_sidebar_filters(pdf_bytes: bytes) -> None:
         options=filter_options["provincias"],
         index=0,
         key="filter_provincia",
-        help="Filtra por provincia: Alacant, Castelló o València.",
+        help="Filtra por provincia: Alacant, Castello o Valencia.",
     )
 
     iti_options = [FILTRO_TODOS, "SI", "NO"]
@@ -365,7 +388,7 @@ def render_summary(df_filtered: pd.DataFrame, origen_nombre: str):
     c2.metric("Vacantes", len(df_filtered[df_filtered["Tipo"] == "VACANTE"]))
     c3.metric(
         "Sustituciones",
-        len(df_filtered[df_filtered["Tipo"] == "SUSTITUCIÓN INDETERMINADA"]),
+        len(df_filtered[df_filtered["Tipo"] == "SUSTITUCION INDETERMINADA"]),
     )
     c4.metric("ITI SI", len(df_filtered[df_filtered["ITI"] == "SI"]))
     n_sub = (
@@ -373,7 +396,7 @@ def render_summary(df_filtered: pd.DataFrame, origen_nombre: str):
         if "Zona_Subarea" in df_filtered.columns
         else 0
     )
-    c5.metric("Subáreas", n_sub)
+    c5.metric("Subareas", n_sub)
 
 
 # ---------------------------------------------------------------------------
@@ -445,7 +468,7 @@ def _prepare_flat_df(
                     if fb_col in merged_fb.columns:
                         clean.loc[mask, col] = merged_fb[fb_col].values
                 if "Subárea_fb" in merged_fb.columns:
-                    clean.loc[mask, "Subárea"] = merged_fb["Subárea_fb"].values
+                    clean.loc[mask, "Subarea"] = merged_fb["Subárea_fb"].values
 
             clean.drop(columns=["_join_key"], inplace=True)
 
@@ -520,7 +543,7 @@ def render_grouped_view(bloques_data: dict, sort_by: str = "distancia"):
     subareas = bloques_data.get("resumen_por_subareas", [])
 
     if not subareas:
-        st.info("No hay subáreas para mostrar.")
+        st.info("No hay subareas para mostrar.")
         return
 
     sort_col = "Distancia (km)" if sort_by == "distancia" else "Tiempo (min)"
@@ -533,16 +556,16 @@ def render_grouped_view(bloques_data: dict, sort_by: str = "distancia"):
         distancia = bloque["distancia_minima_km"]
         total = bloque["total_plazas"]
 
-        label_parts = [f"Subárea {codigo}"]
+        label_parts = [f"Subarea {codigo}"]
         if nombre:
-            label_parts.append(f"— {nombre}")
+            label_parts.append(f" -- {nombre}")
         label_parts.append(
             f"  |  {tiempo:.1f} min (media)" if tiempo is not None
             else "  |  N/A min (media)"
         )
         label_parts.append(
-            f"  |  {distancia:.1f} km (mínima)" if distancia is not None
-            else "  |  N/A km (mínima)"
+            f"  |  {distancia:.1f} km (minima)" if distancia is not None
+            else "  |  N/A km (minima)"
         )
         label_parts.append(f"  |  {total} plazas")
 
@@ -552,7 +575,7 @@ def render_grouped_view(bloques_data: dict, sort_by: str = "distancia"):
             plazas = bloque.get("plazas", [])
 
             if not plazas:
-                st.info("No hay plazas en esta subárea.")
+                st.info("No hay plazas en esta subarea.")
                 continue
 
             st.markdown(
@@ -603,22 +626,22 @@ def render_grouped_view(bloques_data: dict, sort_by: str = "distancia"):
 
 
 # ---------------------------------------------------------------------------
-# Main — Sidebar-driven orchestrator
+# Main -- Sidebar-driven orchestrator
 # ---------------------------------------------------------------------------
 
 def main():
     st.set_page_config(
         page_title="Adjudicaciones CV",
-        page_icon="\U0001f393",
+        page_icon=None,
         layout="wide",
     )
 
     st.html(WIZARD_CSS)
 
-    st.title("AdjudicaCV \u2014 Ordenador de Adjudicaciones Docentes")
+    st.title("Asistente de Adjudicaciones Docentes (CV)")
     st.caption(
-        "Calcula tiempos y distancias desde tu municipio para solicitar "
-        "tus plazas con criterio."
+        "Ordena los puestos ofertados para personal interino segun "
+        "tiempo de trayecto o distancia."
     )
 
     municipios = load_municipios()
@@ -629,34 +652,56 @@ def main():
         )
         return
 
+    # --- FAQ / Preguntas frecuentes ---
+    with st.expander("Preguntas frecuentes y limitaciones del sistema"):
+        st.markdown(
+            """
+**Sin IA Generativa:**
+El motor es un extractor determinista de datos estructurados sobre los PDFs
+oficiales. No se generan ni modifican datos; el proceso es completamente
+reproducible y transparente.
+
+**Formato soportado:**
+Solo procesa los documentos oficiales de **PUESTOS OFERTADOS** de la
+Conselleria de Educacion (GVA) para personal docente interino. No se admiten
+otros tipos de PDF ni documentos de terceros.
+"""
+        )
+
     pdf_bytes = render_sidebar_config()
 
-    # --- Disclaimer ---------------------------------------------------------
-    _render_disclaimer()
-
-    # --- No PDF loaded → welcome screen -------------------------------------
+    # --- No PDF loaded -> welcome screen ---
     if pdf_bytes is None:
         _render_welcome()
         return
 
-    # --- Parse PDF ----------------------------------------------------------
+    # --- Gatekeeper: validate PDF format ---
+    if not _validate_pdf_format(pdf_bytes):
+        st.error(
+            "El documento subido no tiene el formato oficial de puestos "
+            "ofertados de la Conselleria. Por favor, sube un PDF valido "
+            "de adjudicaciones."
+        )
+        st.stop()
+
+    # --- Parse PDF ---
     df_raw = load_adjudicacion_data(pdf_bytes)
 
     if df_raw.empty:
         st.warning("El PDF seleccionado no contiene datos parseables.")
         st.stop()
 
-    # --- Sidebar filters → filter_kwargs ------------------------------------
+    # --- Sidebar filters -> filter_kwargs ---
     filter_kwargs = _get_filter_kwargs()
 
-    # --- Apply filters ------------------------------------------------------
+    # --- Apply filters ---
     df_filtered = filter_positions(df_raw, **filter_kwargs)
 
     if df_filtered.empty:
         st.warning("No hay resultados con los filtros seleccionados.")
         st.stop()
 
-    # --- Enrich with zone data ----------------------------------------------
+    # --- Enrich with zone data ---
     if ZONAS_FILE.is_file():
         df_filtered = inject_coordinates(
             df_filtered,
@@ -664,17 +709,17 @@ def main():
             zonas_json_path=str(ZONAS_FILE),
         )
 
-    # --- Quality gate: validate critical subareas ---------------------------
+    # --- Quality gate: validate critical subareas ---
     if "Zona_Subarea" in df_filtered.columns:
         from match_coords import validate_critical_subareas
         validate_critical_subareas(df_filtered)
 
-    # --- Summary ------------------------------------------------------------
+    # --- Summary ---
     origen_nombre = st.session_state.get("origen_nombre", "")
     render_summary(df_filtered, origen_nombre)
     st.divider()
 
-    # --- OSRM calculation button --------------------------------------------
+    # --- OSRM calculation button ---
     sort_by = st.session_state.get("sort_by", "distancia")
 
     current_fingerprint = _make_fingerprint(
@@ -725,9 +770,9 @@ def main():
                     st.error(f"Error calculando rutas: {e}")
                     st.stop()
 
-    # --- Results with tabs --------------------------------------------------
+    # --- Results with tabs ---
     tab_grouped, tab_flat = st.tabs(
-        ["Vista por Subáreas", "Lista Plana"]
+        ["Vista por Subareas", "Lista Plana"]
     )
 
     with tab_grouped:
@@ -739,7 +784,7 @@ def main():
         else:
             st.info(
                 "Pulsa **Calcular y Ordenar Plazas** para ver los "
-                "resultados agrupados por subárea."
+                "resultados agrupados por subarea."
             )
 
     with tab_flat:
